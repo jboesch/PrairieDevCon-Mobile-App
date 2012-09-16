@@ -1,4 +1,3 @@
-// ext_path gets set when we run our build file.
 Ext.Loader.setPath({
     'Ext':  'touch/src'
 });
@@ -19,8 +18,6 @@ Ext.application({
         'Sessions'
     ],
 
-    appFolder: 'app',
-
 //    icon: {
 //        57: 'm/resources/images/7s-ios-logo-57.png',
 //        114: 'm/resources/images/7s-ios-logo-114.png'
@@ -28,8 +25,8 @@ Ext.application({
 //
 //    phoneStartupScreen: 'm/resources/images/7s-ios-startup.png',
 
-    launch: function()
-    {
+    launch: function(){
+
         Ext.Viewport.add({
             xclass: 'PDC.view.Main'
         });
