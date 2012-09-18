@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d52b61b8-adeb-4ad8-b53b-23400c6f0f2e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/app/view/Location.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app/store/Speakers.js" afterPath="$PROJECT_DIR$/app/app/store/Speakers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app/view/SpeakersList.js" afterPath="$PROJECT_DIR$/app/app/view/SpeakersList.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.js" afterPath="$PROJECT_DIR$/app/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app/view/Main.js" afterPath="$PROJECT_DIR$/app/app/view/Main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
     </list>
     <ignored path="pdc.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,7 +31,7 @@
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="17" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0">
+            <state line="10" column="18" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -101,7 +103,16 @@
       <file leaf-file-name="Main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/app/view/Main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="32" selection-start="788" selection-end="788" vertical-scroll-proportion="0.0">
+            <state line="18" column="34" selection-start="591" selection-end="591" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Location.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/app/view/Location.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="13" selection-start="353" selection-end="353" vertical-scroll-proportion="0.5483871">
               <folding />
             </state>
           </provider>
@@ -110,7 +121,7 @@
       <file leaf-file-name="Sessions.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/app/view/Sessions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="37" selection-start="1713" selection-end="1713" vertical-scroll-proportion="0.0">
+            <state line="5" column="4" selection-start="111" selection-end="192" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -134,10 +145,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Speakers.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Speakers.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/app/store/Speakers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="13" selection-start="79" selection-end="79" vertical-scroll-proportion="0.113065325">
+            <state line="3" column="13" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -155,7 +166,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="9" selection-start="417" selection-end="417" vertical-scroll-proportion="-6.875">
+            <state line="4" column="46" selection-start="116" selection-end="116" vertical-scroll-proportion="-2.5">
               <folding />
             </state>
           </provider>
@@ -175,8 +186,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/webserver.rb" />
-        <option value="$PROJECT_DIR$/app/webserver.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/presentation/index.html" />
         <option value="$PROJECT_DIR$/app/_misc/reader_tab_delim.php" />
@@ -185,21 +194,22 @@
         <option value="$PROJECT_DIR$/app/data/sessions.json" />
         <option value="$PROJECT_DIR$/app/app/view/Speakers.js" />
         <option value="$PROJECT_DIR$/app/app/view/Sessions.js" />
-        <option value="$PROJECT_DIR$/app/app/view/Main.js" />
         <option value="$PROJECT_DIR$/app/app/model/Speaker.js" />
         <option value="$PROJECT_DIR$/app/app/model/Session.js" />
-        <option value="$PROJECT_DIR$/app/app.js" />
         <option value="$PROJECT_DIR$/app/app/view/SpeakersList.js" />
         <option value="$PROJECT_DIR$/app/app/store/Speakers.js" />
+        <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/app/app.js" />
+        <option value="$PROJECT_DIR$/app/app/view/Main.js" />
+        <option value="$PROJECT_DIR$/app/app/view/Location.js" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="110" />
     <option name="y" value="22" />
-    <option name="width" value="1554" />
-    <option name="height" value="901" />
+    <option name="width" value="1680" />
+    <option name="height" value="968" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -278,6 +288,46 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="pdc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pdc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pdc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pdc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pdc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -402,19 +452,23 @@
       <created>1347947201876</created>
       <updated>1347947201876</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="* ordering speakers by name">
+      <created>1347947475522</created>
+      <updated>1347947475522</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="110" y="22" width="1554" height="901" extended-state="0" />
+    <frame x="0" y="22" width="1680" height="968" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928944" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.42692307" sideWeight="0.9900929" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3931523" sideWeight="0.97796816" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2122016" sideWeight="0.5730769" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19583844" sideWeight="0.6068477" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936507" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -466,7 +520,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="* adding speakers.json" />
+    <option name="LAST_COMMIT_MESSAGE" value="* ordering speakers by name" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -484,18 +538,12 @@
     <MESSAGE value="* head" />
     <MESSAGE value="* moving stuff and adding presentation" />
     <MESSAGE value="* adding speakers.json" />
+    <MESSAGE value="* ordering speakers by name" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/_misc/reader_speakers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="47" selection-start="2146" selection-end="2146" vertical-scroll-proportion="0.75813293">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/_misc/PITDC_Sessions.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="26" selection-start="10995" selection-end="10995" vertical-scroll-proportion="0.3551532">
@@ -510,27 +558,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/app/view/Sessions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="37" selection-start="1713" selection-end="1713" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/app/view/Main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="32" selection-start="788" selection-end="788" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="9" selection-start="417" selection-end="417" vertical-scroll-proportion="-6.875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/data/sessions.json">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="6" selection-start="705" selection-end="705" vertical-scroll-proportion="260.19232">
@@ -541,13 +568,6 @@
     <entry file="file://$PROJECT_DIR$/app/app/model/Session.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="3" selection-start="170" selection-end="170" vertical-scroll-proportion="0.10259918">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="17" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -596,7 +616,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/app/store/Speakers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="13" selection-start="79" selection-end="79" vertical-scroll-proportion="0.113065325">
+        <state line="3" column="13" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="46" selection-start="116" selection-end="116" vertical-scroll-proportion="-2.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="18" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app/view/Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="34" selection-start="591" selection-end="591" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app/view/Sessions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="4" selection-start="111" selection-end="192" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app/view/Location.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="13" selection-start="353" selection-end="353" vertical-scroll-proportion="0.5483871">
           <folding />
         </state>
       </provider>
