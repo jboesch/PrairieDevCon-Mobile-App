@@ -37,7 +37,8 @@ Ext.define('PDC.view.Location', {
                 },
                 mapOptions: {
                     center: new google.maps.LatLng(50.452192, -104.6092889),
-                    zoom: 14
+                    zoom: 14,
+                    disableDefaultUI: true
                 }
             }
         ]
