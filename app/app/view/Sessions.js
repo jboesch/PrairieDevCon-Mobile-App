@@ -12,7 +12,6 @@ Ext.define('PDC.view.Sessions', {
         layout: 'fit',
         items: [
             {
-                cls: 'ss-toolbar-title',
                 xtype: 'toolbar',
                 title: 'Sessions',
                 docked: 'top',
@@ -53,8 +52,7 @@ Ext.define('PDC.view.Sessions', {
                 }]
             },
             {
-                xtype: 'sessionslist',
-                id: 'sessions-list'
+                xtype: 'sessionslist'
             }
         ]
     }

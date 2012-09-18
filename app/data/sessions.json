@@ -2,7 +2,7 @@
     {
         "id":1,
         "speaker":"Jason Toews",
-        "title":"Keynote - GasBuddy: Home Grown Success -",
+        "title":"Keynote - GasBuddy: Home Grown Success",
         "room":"Lombardy A",
         "date":"2012-10-01",
         "start":"08:00",
@@ -65,7 +65,7 @@
         "title":"Web Ops",
         "room":"Lombardy A",
         "date":"2012-10-01",
-        "start":"09:00",
+        "start":"10:30",
         "end":"11:45",
         "dojo":false
     },
@@ -75,7 +75,7 @@
         "title":"A Tour of ASP.NET Web API",
         "room":"Lombardy B",
         "date":"2012-10-01",
-        "start":"09:00",
+        "start":"10:30",
         "end":"11:45",
         "dojo":false
     },
@@ -85,7 +85,7 @@
         "title":"iOS for .NET Devs",
         "room":"Tuscany AB",
         "date":"2012-10-01",
-        "start":"09:00",
+        "start":"10:30",
         "end":"11:45",
         "dojo":false
     },
@@ -95,7 +95,7 @@
         "title":"Want to be a Front-End Engineer?",
         "room":"Campania",
         "date":"2012-10-01",
-        "start":"09:00",
+        "start":"10:30",
         "end":"11:45",
         "dojo":false
     },
@@ -105,7 +105,7 @@
         "title":"Design Win 8 Store Apps",
         "room":"Umbria",
         "date":"2012-10-01",
-        "start":"09:00",
+        "start":"10:30",
         "end":"11:45",
         "dojo":false
     },
@@ -251,8 +251,8 @@
     },
     {
         "id":26,
-        "speaker":"Nick Landry",
-        "title":"Getting Started with WP Dev",
+        "speaker":"Chad Emm",
+        "title":"8 .NET Web Services in 75 Minutes",
         "room":"Lombardy A",
         "date":"2012-10-02",
         "start":"08:00",
@@ -311,8 +311,8 @@
     },
     {
         "id":32,
-        "speaker":"Chad Emm",
-        "title":"8 .NET Web Services in 75 Minutes",
+        "speaker":"Nick Landry",
+        "title":"Getting Started with WP Dev",
         "room":"Lombardy B",
         "date":"2012-10-02",
         "start":"09:20",
@@ -336,8 +336,8 @@
         "room":"Campania",
         "date":"2012-10-02",
         "start":"09:20",
-        "end":"12:00",
-        "dojo":true
+        "end":"10:30",
+        "dojo":false
     },
     {
         "id":35,
@@ -365,7 +365,7 @@
         "title":"Tools for Teamwork (VS ALM)",
         "room":"Lombardy A",
         "date":"2012-10-02",
-        "start":"09:20",
+        "start":"10:45",
         "end":"12:00",
         "dojo":false
     },
@@ -375,7 +375,7 @@
         "title":"Let's Get Organized!",
         "room":"Lombardy B",
         "date":"2012-10-02",
-        "start":"09:20",
+        "start":"10:45",
         "end":"12:00",
         "dojo":false
     },
@@ -385,7 +385,7 @@
         "title":"App Design for Windows Phone",
         "room":"Campania",
         "date":"2012-10-02",
-        "start":"09:20",
+        "start":"10:45",
         "end":"12:00",
         "dojo":false
     },

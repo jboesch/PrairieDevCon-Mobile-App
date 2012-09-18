@@ -6,16 +6,19 @@ Ext.application({
     name: 'PDC',
     views: [
         'Main',
-        'Sessions'
+        'Sessions',
+        'Speakers'
     ],
 
     models: [
-        'Session'
+        'Session',
+        'Speaker'
     ],
     controllers: [
     ],
     stores: [
-        'Sessions'
+        'Sessions',
+        'Speakers'
     ],
 
 //    icon: {

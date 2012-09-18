@@ -81,6 +81,7 @@ if (($handle = fopen("pdc.csv", "r")) !== FALSE) {
                 }
 
                 if($k != 0){
+                    $dojo = false;
                     $cell_parts = explode(' ', $cell_text);
                     $speaker_last = array_pop($cell_parts);
                     $speaker_first = array_pop($cell_parts);
@@ -97,17 +98,18 @@ if (($handle = fopen("pdc.csv", "r")) !== FALSE) {
                         continue;
                     }
 
-                    if((stristr($speaker, 'Chambers') || stristr($speaker, 'Brent Watson')) && stristr($title, 'Dojo')){
-                        $dojo = true;
-                        $end_time = '5:15';
-                    }
-                    else if(stristr($title, 'Source Control Crusades')){
+                    if(stristr($title, 'Source Control')){
                         $dojo = true;
                         $end_time = '12:00';
+                    }
+                    else if((stristr($speaker, 'Chambers') || stristr($speaker, 'Brent Watson')) && stristr($title, 'Dojo')){
+                        $dojo = true;
+                        $end_time = '5:15';
                     }
                     else if(stristr($title, 'Open Data:')){
                         $title = 'Open Data: A Paradigm Shift';
                         $speaker = 'Dale Zak, Andrew Dyck, Chad Emm';
+                        $end_time = '10:30';
                     }
                     else if(stristr($title, 'Using Node.JS to Manage Client')){
                         $dojo = true;
@@ -138,6 +140,8 @@ if (($handle = fopen("pdc.csv", "r")) !== FALSE) {
 
                     if(in_array($start_hour, array(7, 8, 9))){
                         $start_time = $start_hour . ':' . $start_parts[1] . ' AM';
+                    } else {
+                        $start_time = $orig_start_time;
                     }
 
                     if(in_array($end_hour, array(7, 8, 9))){
@@ -146,6 +150,8 @@ if (($handle = fopen("pdc.csv", "r")) !== FALSE) {
 //
                     if(in_array($start_hour, array(1, 2, 3, 4, 5, 6))){
                         $start_time = $start_hour . ':' . $start_parts[1] . ' PM';
+                    } else {
+                        $start_time = $orig_start_time;
                     }
 
                     if(in_array($end_hour, array(1, 2, 3, 4, 5, 6))){
