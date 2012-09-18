@@ -2,7 +2,9 @@ Ext.define('PDC.store.Speakers', {
     extend: 'Ext.data.Store',
 
     config: {
-        sorter: 'speaker',
+        grouper: function(record){
+            return record.get('speaker');
+        },
         model: 'PDC.model.Speaker',
         proxy: {
             type: 'ajax',
