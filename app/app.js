@@ -7,6 +7,7 @@ Ext.application({
     views: [
         'Main',
         'Sessions',
+        'SessionDetails',
         'Speakers',
         'Location'
     ],
@@ -16,6 +17,8 @@ Ext.application({
         'Speaker'
     ],
     controllers: [
+        'Location',
+        'Sessions'
     ],
     stores: [
         'Sessions',

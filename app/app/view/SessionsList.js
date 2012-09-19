@@ -1,7 +1,6 @@
 Ext.define('PDC.view.SessionsList', {
     extend: 'Ext.dataview.List',
     xtype: 'sessionslist',
-    id: 'sessions-list',
 
     initialize: function () {
 
@@ -30,7 +29,34 @@ Ext.define('PDC.view.SessionsList', {
     config: {
         store: 'Sessions',
         grouped: true,
-        itemTpl: '<div class="session"><div class="title">{title}</div><div class="room">{speaker}</div><div class="clear"></div></div>'
+        itemTpl: '<div class="session"><div class="title">{title}</div><div class="room">{speaker}</div><div class="clear"></div></div>',
+        items: [
+            {
+                xtype: 'toolbar',
+                docked: 'top',
+                ui: 'gray',
+                items: [{
+                    id: 'session-date-buttons',
+                    xtype: 'segmentedbutton',
+                    allowDepress: false,
+                    width: '100%',
+                    padding: "0 5",
+                    defaults: {
+                        flex: 1
+                    },
+                    items: [
+                        {
+                            text: 'Mon, Oct 1',
+                            value: '2012-10-01'
+                        },
+                        {
+                            text: 'Tue, Oct 2',
+                            value: '2012-10-02'
+                        }
+                    ]
+                }]
+            }
+        ]
     }
 
 });

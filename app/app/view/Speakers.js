@@ -1,21 +1,18 @@
 Ext.define('PDC.view.Speakers', {
-    extend: 'Ext.Container',
+    extend: 'Ext.NavigationView',
     xtype: 'speakers',
-    id: 'speakers',
 
     requires: [
         'PDC.view.SpeakersList'
     ],
 
     config: {
-        layout: 'fit',
+        autoDestroy: false,
+        tab: {
+            title: 'Speakers',
+            iconCls: 'team'
+        },
         items: [
-            {
-                xtype: 'toolbar',
-                title: 'Speakers',
-                docked: 'top',
-                ui: 'light'
-            },
             {
                 xtype: 'speakerslist'
             }
