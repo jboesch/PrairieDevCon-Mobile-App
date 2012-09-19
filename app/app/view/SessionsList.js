@@ -2,6 +2,10 @@ Ext.define('PDC.view.SessionsList', {
     extend: 'Ext.dataview.List',
     xtype: 'sessionslist',
 
+    requires: [
+        'Ext.SegmentedButton'
+    ],
+
     initialize: function () {
 
         this.callParent();
@@ -27,6 +31,7 @@ Ext.define('PDC.view.SessionsList', {
     },
 
     config: {
+        title: 'Sessions',
         store: 'Sessions',
         grouped: true,
         itemTpl: '<div class="session"><div class="title">{title}</div><div class="room">{speaker}</div><div class="clear"></div></div>',

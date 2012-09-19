@@ -7,8 +7,10 @@ Ext.application({
     views: [
         'Main',
         'Sessions',
+        'SessionsList',
         'SessionDetails',
         'Speakers',
+        'SpeakersList',
         'Location'
     ],
 

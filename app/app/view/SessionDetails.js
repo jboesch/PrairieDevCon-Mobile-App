@@ -6,6 +6,7 @@ Ext.define('PDC.view.SessionDetails', {
     config: {
 
         layout: 'vbox',
+        scrollable: 'vertical',
 
         tpl: Ext.create('Ext.XTemplate',
             '<p>Name: {speaker}</p>'

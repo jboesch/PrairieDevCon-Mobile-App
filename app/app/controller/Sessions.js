@@ -22,8 +22,9 @@ Ext.define('PDC.controller.Sessions', {
 
     switchSessionDate: function(segment, button_clicked){
 
-        Ext.getStore('Sessions').clearFilter(true);
-        Ext.getStore('Sessions').filter(function(record){
+        var session_store = Ext.getStore('Sessions');
+        session_store.clearFilter(true);
+        session_store.filter(function(record){
             return record.get('date') == button_clicked.value;
         });
 
@@ -33,11 +34,12 @@ Ext.define('PDC.controller.Sessions', {
 
         // Store one instance of the widget, we don't want to
         // keep re-creating it.
-        if(!this.sessionDetails){
-            this.sessionDetails = Ext.widget('sessiondetails');
+        if(!this.session_details){
+            this.session_details = Ext.widget('sessiondetails');
         }
 
-        this.getSessions().push(this.sessionDetails);
+        this.session_details.config.title = record.get('title');
+        this.getSessions().push(this.session_details);
         this.getSessionDetails().setRecord(record);
 
     }

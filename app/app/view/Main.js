@@ -14,9 +14,21 @@ Ext.define('PDC.view.Main', { // The name of your class. Namespace.[type].classN
         },
 
         items: [
-            { xclass: 'PDC.view.Sessions' },
-            { xclass: 'PDC.view.Speakers' },
-            { xclass: 'PDC.view.Location' }
+            {
+                xtype: 'sessions',
+                title: 'Sessions',
+                iconCls: 'time'
+            },
+            {
+                xtype: 'speakers',
+                title: 'Speakers',
+                iconCls: 'team'
+            },
+            {
+                xtype: 'location',
+                title: 'Location',
+                iconCls: 'locate'
+            }
         ]
     }
 });

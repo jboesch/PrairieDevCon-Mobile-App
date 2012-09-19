@@ -7,10 +7,6 @@ Ext.define('PDC.view.Location', {
     ],
 
     config: {
-        tab: {
-            title: 'Location',
-            iconCls: 'locate'
-        },
         items: [
             {
                 xtype: 'map',
