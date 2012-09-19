@@ -30,8 +30,7 @@ Ext.define('PDC.view.SessionsList', {
     config: {
         store: 'Sessions',
         grouped: true,
-        onItemDisclosure: true,
-        itemTpl: '<div class="session"><div class="title">{title}</div><div class="room">{speaker}</div></div>'
+        itemTpl: '<div class="session"><div class="title">{title}</div><div class="room">{speaker}</div><div class="clear"></div></div>'
     }
 
 });

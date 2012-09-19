@@ -2,7 +2,6 @@ Ext.define('PDC.store.Sessions', {
     extend: 'Ext.data.Store',
 
     config: {
-        sorter: 'start',
         grouper: function(record){
             return record.get('start');
         },

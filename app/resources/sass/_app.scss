@@ -1,0 +1,21 @@
+.clear {
+    clear: both;
+}
+
+.speaker {
+    img {
+        float: left;
+    }
+    .name {
+        float: left;
+        margin: 25px 0 0 19px;
+        font-size: 125%;
+    }
+}
+
+.session {
+    .room {
+        color: #666;
+        font-size: 80%;
+    }
+}
