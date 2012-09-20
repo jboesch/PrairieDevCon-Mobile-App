@@ -38,6 +38,9 @@ Ext.define('PDC.controller.Sessions', {
             this.session_details = Ext.widget('sessiondetails');
         }
 
+        // We have to force the list item to deselect. Bleh :/
+        setTimeout(function(){ list.deselect(idx); }, 500);
+
 //        var speaker_record = Ext.getStore('Speakers').findRecord('speaker', record.get('speaker'));
 
         this.session_details.config.title = record.get('title');

@@ -9,6 +9,7 @@ Ext.define('PDC.view.Location', {
     config: {
         items: [
             {
+                title: 'Location',
                 xtype: 'map',
                 mapOptions: {
                     center: new google.maps.LatLng(50.452192, -104.6092889),
