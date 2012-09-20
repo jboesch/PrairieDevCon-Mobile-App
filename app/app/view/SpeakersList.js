@@ -5,7 +5,7 @@ Ext.define('PDC.view.SpeakersList', {
     config: {
         title: 'Speakers',
         store: 'Speakers',
-        itemTpl: '<div class="speaker"><img src="http://www.prairiedevcon.com/Content/regina/images/speakers/{pic}" height="75" /><div class="name">{speaker}</div><div class="clear"></div></div>'
+        itemTpl: '<div class="speaker"><img src="http://www.prairiedevcon.com/Content/regina/images/speakers/{pic}" /><div class="name">{speaker}</div><div class="clear"></div></div>'
     }
 
 });

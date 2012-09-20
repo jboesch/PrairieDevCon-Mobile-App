@@ -4,7 +4,10 @@
     <list default="true" id="d52b61b8-adeb-4ad8-b53b-23400c6f0f2e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app/controller/Sessions.js" afterPath="$PROJECT_DIR$/app/app/controller/Sessions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app/view/Location.js" afterPath="$PROJECT_DIR$/app/app/view/Location.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app/view/SessionDetails.js" afterPath="$PROJECT_DIR$/app/app/view/SessionDetails.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app/view/SpeakersList.js" afterPath="$PROJECT_DIR$/app/app/view/SpeakersList.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/resources/css/sencha-touch.css" afterPath="$PROJECT_DIR$/app/resources/css/sencha-touch.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/resources/sass/_app.scss" afterPath="$PROJECT_DIR$/app/resources/sass/_app.scss" />
     </list>
     <ignored path="pdc.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -74,7 +77,7 @@
       <file leaf-file-name="SessionDetails.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/app/view/SessionDetails.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="52" selection-start="1060" selection-end="1060" vertical-scroll-proportion="0.0">
+            <state line="20" column="52" selection-start="719" selection-end="719" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -89,10 +92,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SpeakersList.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/app/view/SpeakersList.js">
+      <file leaf-file-name="speakers.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/data/speakers.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="3" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0">
+            <state line="330" column="5" selection-start="16728" selection-end="16728" vertical-scroll-proportion="-12.346154">
               <folding />
             </state>
           </provider>
@@ -143,19 +146,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Sessions.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Sessions.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/app/controller/Sessions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="9" selection-start="995" selection-end="995" vertical-scroll-proportion="0.0">
+            <state line="44" column="67" selection-start="1251" selection-end="1251" vertical-scroll-proportion="0.65011287">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Location.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Location.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/app/controller/Location.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="54" selection-start="496" selection-end="496" vertical-scroll-proportion="0.6451613">
+            <state line="14" column="56" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/app/view/Main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="34" selection-start="706" selection-end="706" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -182,7 +194,16 @@
       <file leaf-file-name="_app.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/resources/sass/_app.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="27" selection-start="493" selection-end="493" vertical-scroll-proportion="0.0">
+            <state line="4" column="17" selection-start="102" selection-end="102" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpeakersList.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/app/view/SpeakersList.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="3" selection-start="361" selection-end="361" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -202,22 +223,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/app/store/Sessions.js" />
         <option value="$PROJECT_DIR$/app/app/controller/Location.js" />
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/app/view/Main.js" />
         <option value="$PROJECT_DIR$/app/app.js" />
         <option value="$PROJECT_DIR$/app/app/view/Speakers.js" />
         <option value="$PROJECT_DIR$/app/app/view/Sessions.js" />
-        <option value="$PROJECT_DIR$/app/app/view/SpeakersList.js" />
         <option value="$PROJECT_DIR$/app/app/model/Session.js" />
         <option value="$PROJECT_DIR$/app/_misc/reader_sessions.php" />
         <option value="$PROJECT_DIR$/app/data/sessions.json" />
+        <option value="$PROJECT_DIR$/app/app/view/SessionsList.js" />
+        <option value="$PROJECT_DIR$/app/app/view/Location.js" />
+        <option value="$PROJECT_DIR$/app/data/speakers.json" />
+        <option value="$PROJECT_DIR$/app/app/controller/Sessions.js" />
         <option value="$PROJECT_DIR$/app/app/view/SessionDetails.js" />
         <option value="$PROJECT_DIR$/app/resources/sass/_app.scss" />
-        <option value="$PROJECT_DIR$/app/app/view/SessionsList.js" />
-        <option value="$PROJECT_DIR$/app/app/controller/Sessions.js" />
-        <option value="$PROJECT_DIR$/app/app/view/Location.js" />
+        <option value="$PROJECT_DIR$/app/app/view/SpeakersList.js" />
       </list>
     </option>
   </component>
@@ -321,28 +342,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pdc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pdc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sass" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -617,7 +616,11 @@
       <created>1348159068775</created>
       <updated>1348159068775</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="* location title added">
+      <created>1348159507196</created>
+      <updated>1348159507196</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -681,7 +684,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="* added descriptions" />
+    <option name="LAST_COMMIT_MESSAGE" value="* location title added" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -706,56 +709,15 @@
     <MESSAGE value="* session details view" />
     <MESSAGE value="* added titles to navigation" />
     <MESSAGE value="* added descriptions" />
+    <MESSAGE value="* location title added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/app/model/Session.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="3" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="23" selection-start="227" selection-end="227" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/resources/sass/sencha-touch.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="30" selection-start="67" selection-end="67" vertical-scroll-proportion="0.06451613">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/resources/themes/stylesheets/sencha-touch/default/_global.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/resources/themes/stylesheets/sencha-touch/default/widgets/_buttons.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-5.225806">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/resources/themes/stylesheets/sencha-touch/default/_mixins.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="79" selection-end="79" vertical-scroll-proportion="0.09955752">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/data/speakers.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -774,30 +736,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/resources/sass/_app.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="27" selection-start="493" selection-end="493" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/app/controller/Sessions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="9" selection-start="995" selection-end="995" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/app/view/Sessions.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="27" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/app/view/SessionDetails.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="52" selection-start="1060" selection-end="1060" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -818,7 +759,70 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/app/controller/Location.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="54" selection-start="496" selection-end="496" vertical-scroll-proportion="0.6451613">
+        <state line="14" column="56" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app/view/Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="34" selection-start="706" selection-end="706" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app/view/Speakers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="5" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/data/speakers.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="330" column="5" selection-start="16728" selection-end="16728" vertical-scroll-proportion="-12.346154">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app/view/SessionDetails.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="52" selection-start="719" selection-end="719" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/resources/themes/stylesheets/sencha-touch/default/_all.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/resources/themes/stylesheets/sencha-touch/default/_mixins.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="511" selection-end="710" vertical-scroll-proportion="0.59302324">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/resources/sass/_app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="17" selection-start="102" selection-end="102" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app/view/SpeakersList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="3" selection-start="361" selection-end="361" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app/controller/Sessions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="67" selection-start="1251" selection-end="1251" vertical-scroll-proportion="0.65011287">
           <folding />
         </state>
       </provider>

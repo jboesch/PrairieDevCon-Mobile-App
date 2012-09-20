@@ -41,7 +41,10 @@ Ext.define('PDC.controller.Sessions', {
         // We have to force the list item to deselect. Bleh :/
         setTimeout(function(){ list.deselect(idx); }, 500);
 
-//        var speaker_record = Ext.getStore('Speakers').findRecord('speaker', record.get('speaker'));
+        // Query the speaker record to find it by speaker name
+        var speaker_record = Ext.getStore('Speakers').findRecord('speaker', record.get('speaker'));
+        // Shove the profile pic onto the session details record
+        record.data.pic = (speaker_record) ? speaker_record.get('pic') : 'nopic.jpg';
 
         this.session_details.config.title = record.get('title');
         this.getSessions().push(this.session_details);
