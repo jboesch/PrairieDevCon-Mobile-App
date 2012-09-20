@@ -221,7 +221,7 @@
     },
     {
         "id":21,
-        "speaker":"Don Belcham",
+        "speaker":"Donald Belcham",
         "title":"Continuous Integration Evolved",
         "room":"Campania",
         "date":"2012-10-01",
@@ -243,7 +243,7 @@
     },
     {
         "id":23,
-        "speaker":"Chris Deganais",
+        "speaker":"Chris Dagenais",
         "title":"Process Overload - Cut Yourself Free!",
         "room":"Lombardy A",
         "date":"2012-10-01",
@@ -547,7 +547,7 @@
         "start":"16:00",
         "end":"17:15",
         "dojo":false,
-        "description":"SharePoint"
+        "description":"No description :("
     },
     {
         "id":51,
@@ -558,7 +558,7 @@
         "start":"16:00",
         "end":"17:15",
         "dojo":false,
-        "description":"-"
+        "description":"No description :("
     },
     {
         "id":52,

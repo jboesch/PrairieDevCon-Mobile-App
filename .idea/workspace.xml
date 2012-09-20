@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d52b61b8-adeb-4ad8-b53b-23400c6f0f2e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app/controller/Sessions.js" afterPath="$PROJECT_DIR$/app/app/controller/Sessions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app/view/SessionDetails.js" afterPath="$PROJECT_DIR$/app/app/view/SessionDetails.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app/view/SpeakersList.js" afterPath="$PROJECT_DIR$/app/app/view/SpeakersList.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/resources/css/sencha-touch.css" afterPath="$PROJECT_DIR$/app/resources/css/sencha-touch.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/resources/sass/_app.scss" afterPath="$PROJECT_DIR$/app/resources/sass/_app.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/data/sessions.json" afterPath="$PROJECT_DIR$/app/data/sessions.json" />
     </list>
     <ignored path="pdc.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -95,16 +91,16 @@
       <file leaf-file-name="speakers.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/data/speakers.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="330" column="5" selection-start="16728" selection-end="16728" vertical-scroll-proportion="-12.346154">
+            <state line="190" column="24" selection-start="9928" selection-end="9933" vertical-scroll-proportion="-5.1538463">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sessions.json" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="sessions.json" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/data/sessions.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="55" selection-start="112" selection-end="112" vertical-scroll-proportion="9.230769">
+            <state line="560" column="40" selection-start="35643" selection-end="35643" vertical-scroll-proportion="0.7772277">
               <folding />
             </state>
           </provider>
@@ -146,10 +142,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Sessions.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Sessions.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/app/controller/Sessions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="67" selection-start="1251" selection-end="1251" vertical-scroll-proportion="0.65011287">
+            <state line="44" column="67" selection-start="1251" selection-end="1251" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -231,7 +227,6 @@
         <option value="$PROJECT_DIR$/app/app/view/Sessions.js" />
         <option value="$PROJECT_DIR$/app/app/model/Session.js" />
         <option value="$PROJECT_DIR$/app/_misc/reader_sessions.php" />
-        <option value="$PROJECT_DIR$/app/data/sessions.json" />
         <option value="$PROJECT_DIR$/app/app/view/SessionsList.js" />
         <option value="$PROJECT_DIR$/app/app/view/Location.js" />
         <option value="$PROJECT_DIR$/app/data/speakers.json" />
@@ -239,6 +234,7 @@
         <option value="$PROJECT_DIR$/app/app/view/SessionDetails.js" />
         <option value="$PROJECT_DIR$/app/resources/sass/_app.scss" />
         <option value="$PROJECT_DIR$/app/app/view/SpeakersList.js" />
+        <option value="$PROJECT_DIR$/app/data/sessions.json" />
       </list>
     </option>
   </component>
@@ -620,7 +616,11 @@
       <created>1348159507196</created>
       <updated>1348159507196</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="* added profile pic to session details">
+      <created>1348163531519</created>
+      <updated>1348163531519</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -684,7 +684,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="* location title added" />
+    <option name="LAST_COMMIT_MESSAGE" value="* added profile pic to session details" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -710,6 +710,7 @@
     <MESSAGE value="* added titles to navigation" />
     <MESSAGE value="* added descriptions" />
     <MESSAGE value="* location title added" />
+    <MESSAGE value="* added profile pic to session details" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -722,23 +723,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/data/sessions.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="55" selection-start="112" selection-end="112" vertical-scroll-proportion="9.230769">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/_misc/reader_sessions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="62" column="37" selection-start="1688" selection-end="1688" vertical-scroll-proportion="-14.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/app/view/Sessions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="27" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -774,13 +761,6 @@
     <entry file="file://$PROJECT_DIR$/app/app/view/Speakers.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="5" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/data/speakers.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="330" column="5" selection-start="16728" selection-end="16728" vertical-scroll-proportion="-12.346154">
           <folding />
         </state>
       </provider>
@@ -822,7 +802,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/app/controller/Sessions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="67" selection-start="1251" selection-end="1251" vertical-scroll-proportion="0.65011287">
+        <state line="44" column="67" selection-start="1251" selection-end="1251" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app/view/Sessions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="27" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/data/speakers.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="190" column="24" selection-start="9928" selection-end="9933" vertical-scroll-proportion="-5.1538463">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/data/sessions.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="560" column="40" selection-start="35643" selection-end="35643" vertical-scroll-proportion="0.7772277">
           <folding />
         </state>
       </provider>
