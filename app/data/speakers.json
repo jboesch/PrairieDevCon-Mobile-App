@@ -1,16 +1,5 @@
 [
     {
-        "id":"139",
-        "speaker":"David Paquette",
-        "bio":"<p>David is as passionate about hands-on software development as he is about engaging others in striving for quality software that solves real-world business problems. \u00a0David has several years of experience in developing software solutions for energy and agricultural companies, where he has always been a strong advocate for agile best practices. \u00a0He currently works for P2 Energy Solutions, where he leads development of commercial products using .NET. \u00a0David enjoys staying on top of the latest technologies, and in his spare time has built and published Windows Phone 7 and Windows 8 apps.<\/p><p>David has a Master\u0092s Degree in Computer Science from the University of Saskatchewan and is active the software community, presenting at local events and international conferences. David currently serves as the President of the Calgary .Net User Group.<\/p>",
-        "email":"david.paquette@usask.ca",
-        "website":"davepaquette.com\/",
-        "twitter":"",
-        "pic":"davidpaquette.jpg",
-        "company":"P2 Energy Solutions",
-        "location":"Calgary, AB"
-    },
-    {
         "id":"173",
         "speaker":"Brett Park",
         "bio":"Brett Park is one of the founders of Shiverware Interactive Software Developments Inc. Shiverware is a company founded on making interactive Apps for mobile devices. Brett has been lead developer for both of Shiverware's major releases: Musix and SpeakBeat. In order to stimulate the iOS community in Saskatchewan, Brett created the Saskatchewan iOS Group (SKiOS) which brings together marketers, developers, and designers to learn more about the iOS world. Brett also has experience with teaching mobile computing classes at the University of Regina. As well as his work with Shiverware, Brett is also pursuing his Ph.D in Computer Science at the University of Regina.",
@@ -20,50 +9,6 @@
         "pic":"brettpark.jpg",
         "company":"Shiverware",
         "location":"Regina, SK"
-    },
-    {
-        "id":"159",
-        "speaker":"Tom Opgenorth",
-        "bio":"Tom is long time software developer with 18 years of professional experience starting with a wide spectrum of platforms and technologies. He finds it very odd speaking of himself in the third person, but is doing so anyway. He is currently an independent consulting with a strong focus on Agile, Web and Mobile development based out of Edmonton, Alberta.",
-        "email":"tom@opgenorth.net",
-        "website":"www.opgenorth.net",
-        "twitter":"topgenorth",
-        "pic":"nopic.jpg",
-        "company":"",
-        "location":"Sherwood Park, AB"
-    },
-    {
-        "id":"162",
-        "speaker":"David Mosher",
-        "bio":"Dave Mosher is a Front-End Engineer who has been designing and building web applications since using HTML tables for layout started to go out of style. A background in classical design and computer systems technology has enabled him to roam between between the worlds of design and development. Dave hails from Saskatoon, SK where he works as a freelance contractor and spends his free time running a Front-End focused user group called SaskJavaScript (<a href=http:\/\/www.saskjavascript.com target=_blank>www.saskjavascript.com<\/a>).",
-        "email":"davidmosher@gmail.com",
-        "website":"blog.davemo.com",
-        "twitter":"dmosher",
-        "pic":"davidmosher.jpg",
-        "company":"DAVEMO Consulting",
-        "location":"Saskatoon, SK"
-    },
-    {
-        "id":"176",
-        "speaker":"Jason Miller",
-        "bio":"<p>Jason is from Winnipeg, MB, where he works as a senior network engineer for Clear Concepts building solutions for and providing support services to customers in the small and mid-sized markets. The company\u0092s customers and his travels range across western Canada, including many clients in remote areas of northern British Columbia. \u00a0Jason is a volunteer leader of the Winnipeg IT Professionals user group, and he is a Microsoft MVP with a specialization in Windows Small Business Server. \u00a0Over the last several years he has delivered technical presentations for IT Professionals at events like Microsoft Tech Days and other conference events on infrastructure management and Windows deployment techniques.<\/p><p>When he\u0092s not working or geeking out in his spare time, he\u0092s likely wake surfing or relaxing at the cottage in the summer months, or snowboarding during the long Canadian winters.<\/P>",
-        "email":"",
-        "website":"blogs.msmvps.com\/jmiller",
-        "twitter":"jason_miller",
-        "pic":"jasonmiller.jpg",
-        "company":"Clear Concepts",
-        "location":"Winnipeg, MB"
-    },
-    {
-        "id":"177",
-        "speaker":"Ruth Morton",
-        "bio":"<p>Ruth Morton is a Technology Advisor for Microsoft Canada. Based in Guelph, Ontario, Ruth travels across Canada building relationships with IT managers and professionals, and talking about the latest in technology. She is a host for the AlignIT Manager Tech Talk series (www.microsoft.ca\/alignitshow) and writes on the Canadian IT Manager and Canadian IT Pro blogs (blogs.technet.com\/cdnitmanagers & blogs.technet.com\/canitpro).<\/p><p>Ruth is known for her authenticity, her ability to build trust and her knack for facilitating the connections and dialogue that matter most to those with whom she speaks. She gets inspired by the opportunity to open up people's minds to the possibilities of Microsoft, to their own potential, and how technology can impact the world.<\/p><p>Before joining Microsoft, Ruth worked as an IT professional for over 12 years implementing enterprise technologies and formulating IT strategies for organizations in Canada, Europe and the US.<\/p><p>For ways to connect with Ruth, please go to www.about.me\/ruthmorton.<\/p>",
-        "email":"",
-        "website":"www.about.me\/ruthmorton",
-        "twitter":"ruthm",
-        "pic":"ruthmorton.jpg",
-        "company":"Microsoft",
-        "location":"Toronto, ON"
     },
     {
         "id":"175",
@@ -77,6 +22,50 @@
         "location":"Seattle, WA"
     },
     {
+        "id":"139",
+        "speaker":"David Paquette",
+        "bio":"<p>David is as passionate about hands-on software development as he is about engaging others in striving for quality software that solves real-world business problems. \u00a0David has several years of experience in developing software solutions for energy and agricultural companies, where he has always been a strong advocate for agile best practices. \u00a0He currently works for P2 Energy Solutions, where he leads development of commercial products using .NET. \u00a0David enjoys staying on top of the latest technologies, and in his spare time has built and published Windows Phone 7 and Windows 8 apps.<\/p><p>David has a Master\u0092s Degree in Computer Science from the University of Saskatchewan and is active the software community, presenting at local events and international conferences. David currently serves as the President of the Calgary .Net User Group.<\/p>",
+        "email":"david.paquette@usask.ca",
+        "website":"davepaquette.com\/",
+        "twitter":"",
+        "pic":"davidpaquette.jpg",
+        "company":"P2 Energy Solutions",
+        "location":"Calgary, AB"
+    },
+    {
+        "id":"159",
+        "speaker":"Tom Opgenorth",
+        "bio":"Tom is long time software developer with 18 years of professional experience starting with a wide spectrum of platforms and technologies. He finds it very odd speaking of himself in the third person, but is doing so anyway. He is currently an independent consulting with a strong focus on Agile, Web and Mobile development based out of Edmonton, Alberta.",
+        "email":"tom@opgenorth.net",
+        "website":"www.opgenorth.net",
+        "twitter":"topgenorth",
+        "pic":"nopic.jpg",
+        "company":"",
+        "location":"Sherwood Park, AB"
+    },
+    {
+        "id":"177",
+        "speaker":"Ruth Morton",
+        "bio":"<p>Ruth Morton is a Technology Advisor for Microsoft Canada. Based in Guelph, Ontario, Ruth travels across Canada building relationships with IT managers and professionals, and talking about the latest in technology. She is a host for the AlignIT Manager Tech Talk series (www.microsoft.ca\/alignitshow) and writes on the Canadian IT Manager and Canadian IT Pro blogs (blogs.technet.com\/cdnitmanagers & blogs.technet.com\/canitpro).<\/p><p>Ruth is known for her authenticity, her ability to build trust and her knack for facilitating the connections and dialogue that matter most to those with whom she speaks. She gets inspired by the opportunity to open up people's minds to the possibilities of Microsoft, to their own potential, and how technology can impact the world.<\/p><p>Before joining Microsoft, Ruth worked as an IT professional for over 12 years implementing enterprise technologies and formulating IT strategies for organizations in Canada, Europe and the US.<\/p><p>For ways to connect with Ruth, please go to www.about.me\/ruthmorton.<\/p>",
+        "email":"",
+        "website":"www.about.me\/ruthmorton",
+        "twitter":"ruthm",
+        "pic":"ruthmorton.jpg",
+        "company":"Microsoft",
+        "location":"Toronto, ON"
+    },
+    {
+        "id":"162",
+        "speaker":"David Mosher",
+        "bio":"Dave Mosher is a Front-End Engineer who has been designing and building web applications since using HTML tables for layout started to go out of style. A background in classical design and computer systems technology has enabled him to roam between between the worlds of design and development. Dave hails from Saskatoon, SK where he works as a freelance contractor and spends his free time running a Front-End focused user group called SaskJavaScript (<a href=http:\/\/www.saskjavascript.com target=_blank>www.saskjavascript.com<\/a>).",
+        "email":"davidmosher@gmail.com",
+        "website":"blog.davemo.com",
+        "twitter":"dmosher",
+        "pic":"davidmosher.jpg",
+        "company":"DAVEMO Consulting",
+        "location":"Saskatoon, SK"
+    },
+    {
         "id":"146",
         "speaker":"Steve Rogalsky",
         "bio":"Steve Rogalsky first started experimenting with agile and lean techniques as a child. He learned the importance of \u0091test first\u0092 and the folly of \u0091test last\u0092 after starting a snow ball fight with the older kids in the neighbourhood. While playing the popular lego game of \u0091zoom your vehicle towards your brother\u0092s vehicle and see which one breaks first\u0092, he honed his simple design and iterative development skills. \u00a0Steve is a process hacker, accomplished agilist, and co-founder of the Winnipeg Agile User Group. Passionate about his family, working with people, solving problems, coaching, agile, lean, and continuous improvement. Blogs at http:\/\/winnipegagilist.blogspot.com",
@@ -88,15 +77,15 @@
         "location":"Winnipeg, MB"
     },
     {
-        "id":"84",
-        "speaker":"David Wesst",
-        "bio":"David Wesst is a Senior User Experience Specialist at Imaginet based out of Winnipeg, Manitoba. Since earning his Bachelor of Computer Science, David has always been passionate about user experience and technology. He has continued to follow his passion by focusing his professional efforts on user interface and user experience development for all types of software over the past five years. Outside of development, David spends a great portion of his time working with the community to educate them on the importance of user experience. David is also an avid presenter at conferences ranging from Microsoft TechDays to smaller more intimate community events where he takes a practical look at HTML5 and how developers can use it to benefit the businesses they work for. Through his community work, David has earned the title of Microsoft MVP in the area of Internet Explorer and continues to educate the technology community about the latest in web standards and how to apply them in real-world scenarios.",
-        "email":"david@wes.st",
-        "website":"www.davidwesst.com",
-        "twitter":"davidwesst",
-        "pic":"davewesst.jpg",
-        "company":"Imaginet",
-        "location":"Winnipeg, MB"
+        "id":"169",
+        "speaker":"Eden Rohatensky",
+        "bio":"Eden Rohatensky is a UX and graphic designer that has experience in both mobile and web. After leaving her position as a Mobile & Web Designer for GasBuddy.com, Eden moved on to work as a freelance web developer. She is also a Computer Science student at the University of Regina. Eden has worked closely with both the University of Regina's Computer Science Student Society and Regina's hackerspace, CrashBang Labs, to help build the development community around her.",
+        "email":"edenrohatensky@gmail.com",
+        "website":"",
+        "twitter":"edenthecat",
+        "pic":"edenrohatensky.jpg",
+        "company":"Bravo Tango",
+        "location":"Regina, SK"
     },
     {
         "id":"158",
@@ -110,6 +99,26 @@
         "location":""
     },
     {
+        "id":187713,
+        "speaker":"Jason Toews",
+        "bio":"Jason Toews is CEO and co-founder of Regina-based GB Internet Solutions, developing the rapidly growing GasBuddy and OpenStore\u00ae brands. In 2000, Toews co-founded GasBuddy to help consumers save money on one of life\u2019s more irksome costs \u2013 gas. Selected by Time Magazine as one of the Best Mobile Apps of 2012, GasBuddy now has over 19 million app downloads across iPhone, Android, Blackberry and Windows Phone in addition to its 240+ local websites. In 2009, Toews continued his success by launching award-winning OpenStore\u00ae, a mobile, web, and social media marketing platform to help retailers connect with their customers in the constantly evolving world of technology.",
+        "pic":"jasontoews.jpg",
+        "company":"GB Internet Solutions",
+        "location":"Regina, SK",
+        "website":"www.gasbuddy.com"
+    },
+    {
+        "id":"84",
+        "speaker":"David Wesst",
+        "bio":"David Wesst is a Senior User Experience Specialist at Imaginet based out of Winnipeg, Manitoba. Since earning his Bachelor of Computer Science, David has always been passionate about user experience and technology. He has continued to follow his passion by focusing his professional efforts on user interface and user experience development for all types of software over the past five years. Outside of development, David spends a great portion of his time working with the community to educate them on the importance of user experience. David is also an avid presenter at conferences ranging from Microsoft TechDays to smaller more intimate community events where he takes a practical look at HTML5 and how developers can use it to benefit the businesses they work for. Through his community work, David has earned the title of Microsoft MVP in the area of Internet Explorer and continues to educate the technology community about the latest in web standards and how to apply them in real-world scenarios.",
+        "email":"david@wes.st",
+        "website":"www.davidwesst.com",
+        "twitter":"davidwesst",
+        "pic":"davewesst.jpg",
+        "company":"Imaginet",
+        "location":"Winnipeg, MB"
+    },
+    {
         "id":"140",
         "speaker":"Brent Watson",
         "bio":"Brent is a software developer by profession and a geek at heart. \u00a0He has previously worked for GE Healthcare and SaskTel building enterprise application. \u00a0He is currently at IDnoodle working on mobile application development. \u00a0Outside of work, Brent is a facilitator for the Regina Technology Community, owns his own software company - Brent Watson Technologies Inc., and is an author. \u00a0Brent's presentations are always visually entertaining and packed full of information.",
@@ -118,28 +127,6 @@
         "twitter":"brent_watson",
         "pic":"brentwatson.jpg",
         "company":"Brent Watson Technologies Inc.",
-        "location":"Regina, SK"
-    },
-    {
-        "id":"155",
-        "speaker":"Simon Timms",
-        "bio":"Some say that he doesn\u0092t understand toasters and that he can out squint Clint Eastwood all we know is that he\u0092s called Simon Timms. Simon is a founder of Wopsle and currently works as a developer for GeoTrac International.<br \/><br \/>GeoTrac is a leader in GPS fleet management focusing on the oil sector in Western Canada. \u00a0Simon\u0092s background is in release management, source control and .net development but he now spends his days working on distributed systems and applying whatever nonsense he just read on Fowler\u0092s blog. This week it is opportunistic refactoring.",
-        "email":"stimms@gmail.com",
-        "website":"geotracinternational.com",
-        "twitter":"stimms",
-        "pic":"simontimms.jpg",
-        "company":"",
-        "location":"Calgary, AB"
-    },
-    {
-        "id":"169",
-        "speaker":"Eden Rohatensky",
-        "bio":"Eden Rohatensky is a UX and graphic designer that has experience in both mobile and web. After leaving her position as a Mobile & Web Designer for GasBuddy.com, Eden moved on to work as a freelance web developer. She is also a Computer Science student at the University of Regina. Eden has worked closely with both the University of Regina's Computer Science Student Society and Regina's hackerspace, CrashBang Labs, to help build the development community around her.",
-        "email":"edenrohatensky@gmail.com",
-        "website":"",
-        "twitter":"edenthecat",
-        "pic":"edenrohatensky.jpg",
-        "company":"Bravo Tango",
         "location":"Regina, SK"
     },
     {
@@ -154,6 +141,28 @@
         "location":""
     },
     {
+        "id":"155",
+        "speaker":"Simon Timms",
+        "bio":"Some say that he doesn\u0092t understand toasters and that he can out squint Clint Eastwood all we know is that he\u0092s called Simon Timms. Simon is a founder of Wopsle and currently works as a developer for GeoTrac International.<br \/><br \/>GeoTrac is a leader in GPS fleet management focusing on the oil sector in Western Canada. \u00a0Simon\u0092s background is in release management, source control and .net development but he now spends his days working on distributed systems and applying whatever nonsense he just read on Fowler\u0092s blog. This week it is opportunistic refactoring.",
+        "email":"stimms@gmail.com",
+        "website":"geotracinternational.com",
+        "twitter":"stimms",
+        "pic":"simontimms.jpg",
+        "company":"",
+        "location":"Calgary, AB"
+    },
+    {
+        "id":"176",
+        "speaker":"Jason Miller",
+        "bio":"<p>Jason is from Winnipeg, MB, where he works as a senior network engineer for Clear Concepts building solutions for and providing support services to customers in the small and mid-sized markets. The company\u0092s customers and his travels range across western Canada, including many clients in remote areas of northern British Columbia. \u00a0Jason is a volunteer leader of the Winnipeg IT Professionals user group, and he is a Microsoft MVP with a specialization in Windows Small Business Server. \u00a0Over the last several years he has delivered technical presentations for IT Professionals at events like Microsoft Tech Days and other conference events on infrastructure management and Windows deployment techniques.<\/p><p>When he\u0092s not working or geeking out in his spare time, he\u0092s likely wake surfing or relaxing at the cottage in the summer months, or snowboarding during the long Canadian winters.<\/P>",
+        "email":"",
+        "website":"blogs.msmvps.com\/jmiller",
+        "twitter":"jason_miller",
+        "pic":"jasonmiller.jpg",
+        "company":"Clear Concepts",
+        "location":"Winnipeg, MB"
+    },
+    {
         "id":"138",
         "speaker":"Chad McCallum",
         "bio":"With a passion for software development and a stubborn streak the length of Albert Street, Chad McCallum is a local Saskatchewan computer geek with over 6 years of .NET experience (and 2 years of PHP, but we won't talk about that). \u00a0After graduating from SIAST Kelsey Campus, he fed his need to organize money-losing social events by founding The Saskatchewan LAN Organization (S-LAN) in Saskatoon. \u00a0Realizing he needed a paycheque, he picked up freelance PHP contracting work until he could pester iQmetrix to give him a job, which he\u0092s hung onto for the last 6 years. \u00a0There was a brief stint in Vancouver, where he worked on the interactive touchscreen displays you can now see in SaskTel and Jump.ca stores across the province. \u00a0Since then, he's come back to his roots in Regina and started HackREGINA, a local hackathon organization aimed at strengthening the developer community while coding and drinking beer. \u00a0His current focus is mastering the art of the single-page application through JavaScript. \u00a0Between an obsession with video gaming and random mobile application ideas, he tries to learn a new technology every week \u0096 you can see the results at www.rtigger.com. \u00a0",
@@ -163,17 +172,6 @@
         "pic":"chadmccallum.jpg",
         "company":"iQMetrix",
         "location":"Regina, SK"
-    },
-    {
-        "id":"172",
-        "speaker":"Thomas Lewis",
-        "bio":"Thomas Lewis is a Technical Evangelist at Microsoft who at 8 years old thought that there was a frog apocalypse happening in his yard. It just turned out that the rain made all the frogs come out and hop around. He has been at Microsoft for over 12 years and has evangelized everything from Visual Basic 6 to HTML5 to Design for web developers and designers world-wide. He even once ate a \u0093century egg\u0094 while in China.<br \/><br \/>When not talking about the brutality of HTML5, Design and Windows 8, he enjoys his family, wine, death metal and all things 80\u0092s. He is also bent on eradicating IE6 from the planet and will never stop, never.",
-        "email":"",
-        "website":"",
-        "twitter":"tommylee",
-        "pic":"tommylee.jpg",
-        "company":"Microsoft",
-        "location":"Vancouver, BC"
     },
     {
         "id":"144",
@@ -213,10 +211,10 @@
         "speaker":"Jordan Boesch",
         "bio":"Jordan is an all around code monkey but monkeys around primarily with JavaScript - oooo ooo eee eee ahh ahh! He has contributed to the jQuery project, is an author at Learning jQuery (http:\/\/www.learningjquery.com) and writes a lot of fun plugins that help the open source world. Most of his time is spent on an online employee scheduling company he co-founded called 7shifts (www.7shifts.com). Server guy, backend hacker, front-end slasher and designer are just a few hats he wears while working on 7shifts.",
         "email":"",
-        "website":"www.7shifts.com",
+        "website":"www.boedesign.com",
         "twitter":"jboesch",
         "pic":"jordanboesch.jpg",
-        "company":"7shifts",
+        "company":"7Shifts",
         "location":"Regina, SK"
     },
     {
@@ -264,17 +262,6 @@
         "location":"Winnipeg, MB"
     },
     {
-        "id":"145",
-        "speaker":"James Kovacs",
-        "bio":"James Kovacs is a Technical Evangelist for JetBrains. He is passionate in sharing his knowledge about OO, SOLID, TDD\/BDD, testing, object-relational mapping, dependency injection, refactoring, continuous integration, and related techniques. \u00a0\u00a0\u00a0He blogs on CodeBetter.com as well as his own blog, is a technical contributor for Pluralsight, writes articles for MSDN Magazine and CoDe Magazine, and is a frequent speaker at conferences and user groups. He is the creator of psake, a PowerShell-based build automation tool, intended to save developers from XML Hell. \u00a0\u00a0\u00a0James is the Ruby Track Chair for DevTeach, one of Canada\u0092s largest independent developer conferences. He received his Bachelors degree from the University of Toronto and his Masters degree from Harvard University.",
-        "email":"jkovacs@post.harvard.edu",
-        "website":"jameskovacs.com",
-        "twitter":"jameskovacs",
-        "pic":"jameskovacs.jpg",
-        "company":"JetBrains Inc",
-        "location":"Calgary, AB"
-    },
-    {
         "id":"166",
         "speaker":"Nick Landry",
         "bio":"<p>Nick Landry is a Senior Product Manager for Infragistics, the world leader in user interface development tools that empower developers to build and style immersive user experiences and rich data visualization in line of business applications across all .NET platforms, the Web and mobile devices.<\/p><p>Nick is at the helm of Infragistics\u0092 mobile, data visualization and mapping developer tools across multiple technologies and platforms. He previously spent a total of 16 years of his career in IT consulting and services organizations across various technical and business roles, designing, building, managing and selling innovative software solutions for some of the world's top brands and Fortune 500 companies.<\/p><p>Known for his dynamic and engaging style, he is a frequent speaker at major software development conferences worldwide like TechEd, DevConnections, DevTeach and others, and is an 8-year Microsoft MVP awarded on Windows Phone Development. With 20 years of professional experience, Nick is a developer and software architect by trade and specializes in Enterprise Mobility, Location Intelligence & Mapping, Touch Computing & NUI, Cloud Computing and Game Development with XNA. He wrote multiple articles for CODE Magazine, published white papers, wrote several mobility courses, has been a technical editor for IT books, and holds several professional certifications.<\/p>",
@@ -284,6 +271,28 @@
         "pic":"nicklandry.jpg",
         "company":"Infragistics",
         "location":"Cranbury, NJ"
+    },
+    {
+        "id":"172",
+        "speaker":"Thomas Lewis",
+        "bio":"Thomas Lewis is a Technical Evangelist at Microsoft who at 8 years old thought that there was a frog apocalypse happening in his yard. It just turned out that the rain made all the frogs come out and hop around. He has been at Microsoft for over 12 years and has evangelized everything from Visual Basic 6 to HTML5 to Design for web developers and designers world-wide. He even once ate a \u0093century egg\u0094 while in China.<br \/><br \/>When not talking about the brutality of HTML5, Design and Windows 8, he enjoys his family, wine, death metal and all things 80\u0092s. He is also bent on eradicating IE6 from the planet and will never stop, never.",
+        "email":"",
+        "website":"",
+        "twitter":"tommylee",
+        "pic":"tommylee.jpg",
+        "company":"Microsoft",
+        "location":"Vancouver, BC"
+    },
+    {
+        "id":"145",
+        "speaker":"James Kovacs",
+        "bio":"James Kovacs is a Technical Evangelist for JetBrains. He is passionate in sharing his knowledge about OO, SOLID, TDD\/BDD, testing, object-relational mapping, dependency injection, refactoring, continuous integration, and related techniques. \u00a0\u00a0\u00a0He blogs on CodeBetter.com as well as his own blog, is a technical contributor for Pluralsight, writes articles for MSDN Magazine and CoDe Magazine, and is a frequent speaker at conferences and user groups. He is the creator of psake, a PowerShell-based build automation tool, intended to save developers from XML Hell. \u00a0\u00a0\u00a0James is the Ruby Track Chair for DevTeach, one of Canada\u0092s largest independent developer conferences. He received his Bachelors degree from the University of Toronto and his Masters degree from Harvard University.",
+        "email":"jkovacs@post.harvard.edu",
+        "website":"jameskovacs.com",
+        "twitter":"jameskovacs",
+        "pic":"jameskovacs.jpg",
+        "company":"JetBrains Inc",
+        "location":"Calgary, AB"
     },
     {
         "id":"154",
@@ -297,17 +306,6 @@
         "location":"Regina, SK"
     },
     {
-        "id":"170",
-        "speaker":"Matt Haines",
-        "bio":"Software developer by day, amateur hardware hacker by night. Matt has always had a passion for taking things apart, and more recently, putting them back together in new and interesting ways. When he isn't slinging code or stakeholders\u0092 expectations at iQmetrix he is trying to get CrashBang Labs, a new hackerspace in Regina, off the ground so he can share his passion for making things with the Queen City.",
-        "email":"",
-        "website":"",
-        "twitter":"beardedinventor",
-        "pic":"matthaines.jpg",
-        "company":"iQMetrix",
-        "location":"Regina, SK"
-    },
-    {
         "id":"161",
         "speaker":"Andrew Dyck",
         "bio":"Andrew Dyck is a data scientist based out of Regina and founder of Open Data Saskatchewan, a non-profit organization focused on promoting open data innovation in Saskatchewan. He is an author of research materials in several fields including economics, biology and statistics. Andrew views the coming era of big data as time of opportunity to better understand ourselves and solve many long-standing problems from agriculture to health care and everything in between.",
@@ -317,6 +315,17 @@
         "pic":"nopic.jpg",
         "company":"",
         "location":""
+    },
+    {
+        "id":"170",
+        "speaker":"Matt Haines",
+        "bio":"Software developer by day, amateur hardware hacker by night. Matt has always had a passion for taking things apart, and more recently, putting them back together in new and interesting ways. When he isn't slinging code or stakeholders\u0092 expectations at iQmetrix he is trying to get CrashBang Labs, a new hackerspace in Regina, off the ground so he can share his passion for making things with the Queen City.",
+        "email":"",
+        "website":"",
+        "twitter":"beardedinventor",
+        "pic":"matthaines.jpg",
+        "company":"iQMetrix",
+        "location":"Regina, SK"
     },
     {
         "id":"153",

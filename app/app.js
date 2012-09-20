@@ -12,7 +12,10 @@ Ext.application({
         'Speakers',
         'SpeakersList',
         'SpeakerDetails',
-        'Location'
+        'Location',
+        'About',
+        'AboutList',
+        'HtmlPage'
     ],
 
     models: [
@@ -22,7 +25,8 @@ Ext.application({
     controllers: [
         'Location',
         'Sessions',
-        'Speakers'
+        'Speakers',
+        'About'
     ],
     stores: [
         'Sessions',

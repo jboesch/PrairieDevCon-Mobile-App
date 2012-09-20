@@ -28,6 +28,11 @@ Ext.define('PDC.view.Main', { // The name of your class. Namespace.[type].classN
                 xtype: 'location',
                 title: 'Location',
                 iconCls: 'locate'
+            },
+            {
+                xtype: 'about',
+                title: 'About',
+                iconCls: 'info'
             }
         ]
     }

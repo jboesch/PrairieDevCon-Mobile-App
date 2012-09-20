@@ -88,6 +88,16 @@ foreach($contents as $line){
     }
 }
 
+$speakers[] = array(
+    'id' => rand(123, 234234),
+    'speaker' => 'Jason Toews',
+    'bio' => "Jason Toews is CEO and co-founder of Regina-based GB Internet Solutions, developing the rapidly growing GasBuddy and OpenStore® brands. In 2000, Toews co-founded GasBuddy to help consumers save money on one of life’s more irksome costs – gas. Selected by Time Magazine as one of the Best Mobile Apps of 2012, GasBuddy now has over 19 million app downloads across iPhone, Android, Blackberry and Windows Phone in addition to its 240+ local websites. In 2009, Toews continued his success by launching award-winning OpenStore®, a mobile, web, and social media marketing platform to help retailers connect with their customers in the constantly evolving world of technology.",
+    'pic' => 'jasontoews.jpg',
+    'company' => 'GB Internet Solutions',
+    'location' => 'Regina, SK',
+    'website' => 'www.gasbuddy.com'
+);
+
 usort($speakers, 'speakerSort');
 
 //print_r($speakers);
