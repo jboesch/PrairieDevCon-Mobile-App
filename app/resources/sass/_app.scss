@@ -1,7 +1,15 @@
+$pdc_green: #89c53f;
+$pdc_green_dark: #6da32c;
+$pdc_blue: #105483;
+
 @mixin profile-pic() {
     float: left;
     display: block;
     border-radius: 10px;
+}
+
+a {
+    color: $pdc_green_dark;
 }
 
 .clear {
@@ -20,6 +28,16 @@
     }
 }
 
+.dojo-tag {
+    border-radius: 4px;
+    display: inline-block;
+    margin-left: 5px;
+    background: $pdc_green;
+    padding: 0 .3em;
+    color: #fff;
+    font-size: .8em;
+}
+
 .session {
     .room {
         color: #666;
@@ -27,7 +45,8 @@
     }
 }
 
-.session-details {
+.session-details,
+.speaker-details {
     background: #fff;
     line-height: 1.5em;
 
@@ -41,7 +60,7 @@
     }
 
     small {
-        color: #105483;
+        color: $pdc_blue;
         display: block;
     }
 
@@ -58,11 +77,22 @@
     }
 
     .sep {
-        @include background(linear-gradient(#eee, #ccc));
+        @include background(linear-gradient($pdc_green, $pdc_green_dark));
         padding: .1em .1em .1em .9em;
-        border-top: 1px solid #DDD;
-        color: #333;
-        text-shadow: 1px 1px 0 #fff;
+        border-top: 1px solid darken($pdc_green_dark, 5%);
+        color: #fff;
         font-size: .8em;
     }
+}
+
+.speaker-details {
+
+    img {
+        width: 20%;
+    }
+
+    .speaker-info {
+        width: 75%;
+    }
+
 }

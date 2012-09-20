@@ -57,6 +57,16 @@ function speakerSort($a, $b){
     return strcasecmp($a['name'], $b['name']);
 }
 
+function dowebsite($second, $pref){
+    $w = '';
+    if(!stristr($pref, 'null')){
+        $w = $pref;
+    } else if(!stristr($second, 'null')) {
+        $w = $second;
+    }
+    return str_replace('http://', '', $w);
+}
+
 $contents = file_get_contents('PITDC_Speakers.txt');
 $contents = explode("\n", $contents);
 $speakers = array();
@@ -67,9 +77,9 @@ foreach($contents as $line){
         $speakers[] = array(
             'id' => $fields[0],
             'speaker' => $fields[1] . ' ' . $fields[2],
-            'bio' => str_replace(array('"'), '', $fields[3]),
+            'bio' => utf8_encode(str_replace(array('"'), '', $fields[3])),
             'email' => nullempty($fields[4]),
-            'website' => nullempty($fields[5]),
+            'website' => dowebsite($fields[6], $fields[5]),
             'twitter' => nullempty($fields[7]),
             'pic' => nullempty($fields[8]),
             'company' => nullempty($fields[9]),
@@ -79,5 +89,8 @@ foreach($contents as $line){
 }
 
 usort($speakers, 'speakerSort');
+
+//print_r($speakers);
+//exit;
 
 echo file_put_contents('../data/speakers.json', pretty_json(json_encode($speakers)));

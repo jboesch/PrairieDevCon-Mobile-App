@@ -17,7 +17,7 @@ Ext.define('PDC.view.SessionDetails', {
                         '<img src="http://www.prairiedevcon.com/Content/regina/images/speakers/{pic}" />',
                         '<div class="speaker-info">',
                             '<h3>{title}</h3>',
-                            '<h4>{speaker}</h4>',
+                            '<h4>{speaker}{[this.showDojo(values)]}</h4>',
                             '<h4>{[this.formatTime(values)]}</h4>',
                             '<small>{room}</small>',
                         '</div>',
@@ -32,6 +32,9 @@ Ext.define('PDC.view.SessionDetails', {
                             var start = Ext.Date.format(new Date('01/01/2012 ' + o.start), 'g:i A');
                             var end = Ext.Date.format(new Date('01/01/2012 ' + o.end), 'g:i A');
                             return start + ' &raquo; ' + end;
+                        },
+                        showDojo: function(o){
+                            return (o.dojo ? '<span class="dojo-tag">dojo</span>' : '');
                         }
                     }
                 )

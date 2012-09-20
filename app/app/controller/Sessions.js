@@ -44,8 +44,10 @@ Ext.define('PDC.controller.Sessions', {
         // Query the speaker record to find it by speaker name
         var speaker_record = Ext.getStore('Speakers').findRecord('speaker', record.get('speaker'));
         // Shove the profile pic onto the session details record
-        record.data.pic = (speaker_record) ? speaker_record.get('pic') : 'nopic.jpg';
-
+        var speaker_pic = (speaker_record) ? speaker_record.get('pic') : 'nopic.jpg'
+        record.set('pic', speaker_pic);
+//        record.data.pic = record._data.pic = record.raw.pic = (speaker_record) ? speaker_record.get('pic') : 'nopic.jpg';
+//alert(record.data.pic);
         this.session_details.config.title = record.get('title');
         this.getSessions().push(this.session_details);
         this.getSessionDetails().setRecord(record);

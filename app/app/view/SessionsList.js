@@ -34,7 +34,14 @@ Ext.define('PDC.view.SessionsList', {
         title: 'Sessions',
         store: 'Sessions',
         grouped: true,
-        itemTpl: '<div class="session"><div class="title">{title}</div><div class="room">{speaker}</div><div class="clear"></div></div>',
+        itemTpl: Ext.create('Ext.XTemplate',
+            '<div class="session"><div class="title">{title}</div><div class="room">{speaker}{[this.showDojo(values)]}</div><div class="clear"></div></div>',
+            {
+                showDojo: function(o){
+                    return (o.dojo ? '<span class="dojo-tag">dojo</span>' : '');
+                }
+            }
+        ),
         items: [
             {
                 xtype: 'toolbar',
