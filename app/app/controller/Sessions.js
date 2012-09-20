@@ -7,7 +7,7 @@ Ext.define('PDC.controller.Sessions', {
         refs: {
             main: 'main',
             sessions: 'sessions',
-            sessionDetails: 'sessions sessiondetails'
+            sessionDetails: 'sessiondetails component'
         },
 
         control: {
@@ -37,6 +37,8 @@ Ext.define('PDC.controller.Sessions', {
         if(!this.session_details){
             this.session_details = Ext.widget('sessiondetails');
         }
+
+//        var speaker_record = Ext.getStore('Speakers').findRecord('speaker', record.get('speaker'));
 
         this.session_details.config.title = record.get('title');
         this.getSessions().push(this.session_details);

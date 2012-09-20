@@ -56,6 +56,15 @@ $row = 0;
 $i = 0;
 $out = array();
 $date = '2012-10-01';
+$orig_desc = array();
+if($content = file_get_contents('../data/sessions.json')){
+    $content = json_decode($content, true);
+    foreach($content as $item){
+        if(isset($item['description'])){
+            $orig_desc[$item['id']] = $item['description'];
+        }
+    }
+}
 
 if (($handle = fopen("pdc.csv", "r")) !== FALSE) {
     while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
@@ -167,7 +176,8 @@ if (($handle = fopen("pdc.csv", "r")) !== FALSE) {
                         'date' => $date,
                         'start' => date('H:i', strtotime($start_time)),
                         'end' => date('H:i', strtotime($end_time)),
-                        'dojo' => $dojo
+                        'dojo' => $dojo,
+                        'description' => (isset($orig_desc[$i]) ? $orig_desc[$i] : '')
                     );
                 }
             }

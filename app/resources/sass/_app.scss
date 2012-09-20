@@ -10,13 +10,40 @@
     .name {
         float: left;
         margin: 25px 0 0 19px;
-        font-size: 125%;
+        font-size: 1.25em;
     }
 }
 
 .session {
     .room {
         color: #666;
-        font-size: 80%;
+        font-size: .8em;
+    }
+}
+
+.session-details {
+    background: #fff;
+    line-height: 1.5em;
+
+    .inner {
+        padding: 0.9em;
+    }
+
+    h4 {
+        font-size: .9em;
+        color: #777;
+
+        small {
+            color: #105483;
+        }
+    }
+
+    .sep {
+        @include background(linear-gradient(#eee, #ccc));
+        padding: .1em .1em .1em .9em;
+        border-top: 1px solid #DDD;
+        color: #333;
+        text-shadow: 1px 1px 0 #fff;
+        font-size: .8em;
     }
 }
