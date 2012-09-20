@@ -38,12 +38,12 @@ Ext.application({
 
     launch: function(){
 
+        // Remove our 'loading' class
+        document.body.className = '';
+
         Ext.Viewport.add({
             xclass: 'PDC.view.Main'
         });
-
-        // Remove our 'loading' class
-        // document.body.className = '';
 
     }
 

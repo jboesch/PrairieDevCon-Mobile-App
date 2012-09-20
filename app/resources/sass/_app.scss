@@ -16,6 +16,10 @@ a {
     clear: both;
 }
 
+body.loading {
+    background: $pdc_blue url('../images/pdc-logo.png') no-repeat center;
+}
+
 .speaker {
     img {
         height: 75px;
