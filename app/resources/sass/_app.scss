@@ -2,7 +2,6 @@
     float: left;
     display: block;
     border-radius: 10px;
-    height: 75px;
 }
 
 .clear {
@@ -11,6 +10,7 @@
 
 .speaker {
     img {
+        height: 75px;
         @include profile-pic();
     }
     .name {
@@ -46,12 +46,15 @@
     }
 
     img {
+        width: 15%;
+        max-width: 91px;
         @include profile-pic();
     }
 
     .speaker-info {
         float: left;
         margin-left: .8em;
+        width: 80%;
     }
 
     .sep {

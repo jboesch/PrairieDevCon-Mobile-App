@@ -11,6 +11,7 @@ Ext.application({
         'SessionDetails',
         'Speakers',
         'SpeakersList',
+        'SpeakerDetails',
         'Location'
     ],
 
@@ -20,7 +21,8 @@ Ext.application({
     ],
     controllers: [
         'Location',
-        'Sessions'
+        'Sessions',
+        'Speakers'
     ],
     stores: [
         'Sessions',
