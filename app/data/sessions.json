@@ -603,5 +603,126 @@
         "end":"17:15",
         "dojo":false,
         "description":"No description :("
+    },
+    {
+        "start": "08:30",
+        "end": "09:30",
+        "date": "2012-10-03",
+        "speaker": "Mike Yallits and Rob Wiens",
+        "title": "VMware Portfolio Overview – VMware 101",
+        "room": "Lombardy A"
+    },
+    {
+        "start": "08:30",
+        "end": "09:30",
+        "date": "2012-10-03",
+        "speaker": "Jason Miller",
+        "title": "Introduction to Windows Server 2012",
+        "room": "Lombardy B"
+    },
+    {
+        "start": "08:30",
+        "end": "09:30",
+        "date": "2012-10-03",
+        "speaker": "Tyler Doerksen",
+        "title": "Automating Virtual Machine Management with PowerShel",
+        "room": "Campania A"
+    },
+    {
+        "start": "09:45",
+        "end": "10:45",
+        "date": "2012-10-03",
+        "speaker": "Mike Yallits and Jim Nickel",
+        "title": "VMWare End User Computing (EUC) Part 1 - View and Thin App",
+        "room": "Lombardy A"
+    },
+    {
+        "start": "09:45",
+        "end": "10:45",
+        "date": "2012-10-03",
+        "speaker": "Brad Bird",
+        "title": "Modernizing the Datacenter",
+        "room": "Lombardy B"
+    },
+    {
+        "start": "09:45",
+        "end": "10:45",
+        "date": "2012-10-03",
+        "speaker": "Tyler Doerksen",
+        "title": "Deploying Active Directory in Windows Azure",
+        "room": "Campania A"
+    },
+    {
+        "start": "11:00",
+        "end": "12:00",
+        "date": "2012-10-03",
+        "speaker": "Mike Yallits and Jim Nickel",
+        "title": "VMWare End User Computing (EUC) Part 2 - Horizon Application Manager, App Blast, Project Octopus, and Others",
+        "room": "Lombardy A"
+    },
+    {
+        "start": "11:00",
+        "end": "12:00",
+        "date": "2012-10-03",
+        "speaker": "Ruth Morton",
+        "title": "What’s new in Windows Server 2012 Hyper-V",
+        "room": "Lombardy B"
+    },
+    {
+        "start": "12:15",
+        "end": "13:00",
+        "date": "2012-10-03",
+        "speaker": "Cyrus Lim",
+        "title": "What are Expert Integrated Systems (Intro)?",
+        "room": "Lombardy A"
+    },
+    {
+        "start": "13:15",
+        "end": "14:15",
+        "date": "2012-10-03",
+        "speaker": "Mike Yallits and Scott Jordan",
+        "title": "Virtualizing Business Critical Apps - SQL Server, Exchange, and yes even Oracle!",
+        "room": "Lombardy A"
+    },
+    {
+        "start": "13:15",
+        "end": "14:15",
+        "date": "2012-10-03",
+        "speaker": "Brad Bird",
+        "title": "Private Cloud Service Delivery and Automation with System Center 2012",
+        "room": "Lombardy B"
+    },
+    {
+        "start": "13:15",
+        "end": "14:15",
+        "date": "2012-10-03",
+        "speaker": "Cyrus Lim",
+        "title": "Expert Integrated Systems (Part 1)",
+        "room": "Campania A"
+    },
+    {
+        "start": "14:30",
+        "end": "15:30",
+        "date": "2012-10-03",
+        "speaker": "Mike Yallits and Scott Jordan",
+        "title": "SRM in the mid-market – Affordable Business Continuity and Disaster Recovery",
+        "room": "Lombardy A"
+    },
+    {
+        "start": "14:30",
+        "end": "15:30",
+        "date": "2012-10-03",
+        "speaker": "Brad Bird",
+        "title": "How to Make Microsoft System Center 2012 Operations Manager Work for You: Lessons Learned, Beyond the Install",
+        "room": "Lombardy B"
+    },
+    {
+        "start": "14:30",
+        "end": "15:30",
+        "date": "2012-10-03",
+        "speaker": "Cyrus Lim",
+        "title": "Expert Integrated Systems (Part 2)",
+        "room": "Campania A"
     }
 ]
+

@@ -1,4 +1,32 @@
 <?php
+/*
+// Get sessions for day 3, click on the <table> cell on the website and run...
+var sessions = [];
+var rooms = ['Lombardy A', 'Lombardy B', 'Campania A'];
+$($0).find('.time').each(function(){
+    var t = $.trim($(this).text());
+    var s = $.trim(t.split('-')[0]);
+    var e = $.trim(t.split('-')[1]);
+    var i = 0;
+    var p = $(this).parent().find('.session').each(function(){
+        var speaker = $.trim($(this).find('p:eq(1)').text());
+var title = $.trim($(this).find('p:eq(0)').text());
+        if(speaker){
+        var o = {
+            start: s,
+            end: e,
+            date: '2012-10-03',
+            speaker: speaker,
+            title: title,
+            room: rooms[i]
+        }
+        sessions.push(o);
+        }
+        i++;
+    });
+});
+JSON.stringify(sessions);
+ */
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 function pretty_json($json) {
