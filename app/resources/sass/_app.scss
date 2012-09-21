@@ -124,3 +124,21 @@ body.loading {
     }
 
 }
+
+.credit-item {
+    padding: .5em 0;
+
+    img {
+        @include profile-pic();
+        width: 20%;
+        max-width: 90px;
+        margin-right: 5%;;
+    }
+
+    .info {
+        float: left;
+        display: block;
+        width: 70%;
+    }
+
+}
