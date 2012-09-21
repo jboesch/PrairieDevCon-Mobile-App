@@ -16,7 +16,7 @@ Ext.define('PDC.controller.Tweets', {
     onActivate: function() {
         if (!this.loadedTweets) {
 
-            var search = '#pdc2012';
+            var search = '#pitdc';
             this.getTitle().setTitle(search);
 
             Ext.getStore('Tweets').getProxy().setExtraParams({
