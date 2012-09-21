@@ -15,6 +15,7 @@ Ext.application({
         'Location',
         'About',
         'AboutList',
+        'Tweets',
         'HtmlPage'
     ],
 
@@ -26,11 +27,13 @@ Ext.application({
         'Location',
         'Sessions',
         'Speakers',
-        'About'
+        'About',
+        'Tweets'
     ],
     stores: [
         'Sessions',
-        'Speakers'
+        'Speakers',
+        'Tweets'
     ],
 
 //    icon: {

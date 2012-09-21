@@ -142,3 +142,27 @@ body.loading {
     }
 
 }
+
+.tweets {
+
+    img {
+        @include profile-pic();
+    }
+
+    .tweet {
+        margin-left: 5em;
+        color: #333;
+        font-size: .8em;
+    }
+
+    .posted {
+        float: right;
+        color: $pdc_green_dark;
+    }
+
+    h2 {
+        font-weight: bold;
+        padding-bottom: 3px;
+    }
+
+}

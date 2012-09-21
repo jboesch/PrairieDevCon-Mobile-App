@@ -30,6 +30,11 @@ Ext.define('PDC.view.Main', { // The name of your class. Namespace.[type].classN
                 iconCls: 'locate'
             },
             {
+                xtype: 'tweets',
+                title: 'Tweets',
+                iconCls: 'chat'
+            },
+            {
                 xtype: 'about',
                 title: 'About',
                 iconCls: 'info'
