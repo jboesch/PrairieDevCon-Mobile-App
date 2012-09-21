@@ -1,6 +1,6 @@
-Ext.Loader.setPath({
-    'Ext':  'touch/src'
-});
+//Ext.Loader.setPath({
+//    'Ext':  'touch/src'
+//});
 
 Ext.application({
     name: 'PDC',
@@ -36,12 +36,15 @@ Ext.application({
         'Tweets'
     ],
 
-//    icon: {
-//        57: 'm/resources/images/7s-ios-logo-57.png',
-//        114: 'm/resources/images/7s-ios-logo-114.png'
-//    },
-//
-//    phoneStartupScreen: 'm/resources/images/7s-ios-startup.png',
+    icon: {
+        57: 'resources/images/pdc-ios-logo-57.png',
+        72: 'resources/images/pdc-ios-logo-72.png',
+        114: 'resources/images/pdc-ios-logo-114.png'
+    },
+
+    startupImage: {
+        '320x460': 'resources/images/pdc-startup.png'
+    },
 
     launch: function(){
 
