@@ -5,7 +5,7 @@
         "title":"Keynote - GasBuddy: Home Grown Success",
         "room":"Lombardy A",
         "date":"2012-10-01",
-        "start":"08:00",
+        "start":"08:15",
         "end":"08:45",
         "dojo":false,
         "description":"From its beginning in 2000, GasBuddy.com has been proof that ‘local’ does not mean ‘small’. With its innovative concept and over 20 million downloads, the GasBuddy mobile app was rated #6 Overall by Time Magazine in 2012. Join Jason Toews, CEO, as he speaks about the development philosophies and overall business strategies that created this runaway success, and about attracting top talent to our ‘small’ corner of the tech world."
@@ -183,7 +183,7 @@
         "date":"2012-10-01",
         "start":"13:00",
         "end":"14:15",
-        "dojo":false,
+        "dojo":true,
         "description":"Learn how silence can increase collaboration and engagement while helping your agile project be more productive. Silent brainstorming allows everyone to have a voice - the loud people can't dominate the conversation, the quiet people are provided with a way to contribute, cognitive fixation is reduced, and ownership of ideas is increased. It turns out that using silence is also a very effective brainstorming technique in terms of the variety and number of ideas generated. We'll discuss the science of brainstorming and then practice a simple form of silent brainstorming. During the last half of the session I'll show you techniques for using silent brainstorming to create working agreements, create user story maps, generate user stories, prioritize your stories, brainstorm ideas for your retrospective, and more."
     },
     {
@@ -211,10 +211,21 @@
     {
         "id":20,
         "speaker":"James Chambers",
-        "title":"ASP.NET MVC 4 Dojo",
+        "title":"ASP.NET MVC 4 Dojo (Part 1)",
         "room":"Tuscany AB",
         "date":"2012-10-01",
         "start":"14:30",
+        "end":"15:45",
+        "dojo":true,
+        "description":"Fear not, tireless web warriors, you too can get started in the MVC Framework, it's as simple as File -> New -> Project! Bring your laptop and take a break from Web Forms while we walk through the key components and add them to your battle arsenal. Know Ruby? Great! Cross train for a bit and get a good feel for what your .NET brethren are up to. A hands-on lab that will walk you through Razor, routing, model binding, filters, authentication and authorization, the MVC tool chain (including NuGet) and complimentary bits (like jQuery) to make your . We'll build a site with all of the above. Come for the pattern, stay for the framework!"
+    },
+    {
+        "id":55,
+        "speaker":"James Chambers",
+        "title":"ASP.NET MVC 4 Dojo (Part 2)",
+        "room":"Tuscany AB",
+        "date":"2012-10-01",
+        "start":"16:00",
         "end":"17:15",
         "dojo":true,
         "description":"Fear not, tireless web warriors, you too can get started in the MVC Framework, it's as simple as File -> New -> Project! Bring your laptop and take a break from Web Forms while we walk through the key components and add them to your battle arsenal. Know Ruby? Great! Cross train for a bit and get a good feel for what your .NET brethren are up to. A hands-on lab that will walk you through Razor, routing, model binding, filters, authentication and authorization, the MVC tool chain (including NuGet) and complimentary bits (like jQuery) to make your . We'll build a site with all of the above. Come for the pattern, stay for the framework!"
@@ -233,10 +244,21 @@
     {
         "id":22,
         "speaker":"Brent Watson",
-        "title":"Android - Come Build an App! (Dojo)",
+        "title":"Android - Come Build an App! (Part 1)",
         "room":"Umbria",
         "date":"2012-10-01",
         "start":"14:30",
+        "end":"15:45",
+        "dojo":true,
+        "description":"Interested in mobile development for the Android platform? Come and write an app with us. Not interested in mobile apps, but like little green robots? Well, then you're still invited."
+    },
+    {
+        "id":56,
+        "speaker":"Brent Watson",
+        "title":"Android - Come Build an App! (Part 2)",
+        "room":"Umbria",
+        "date":"2012-10-01",
+        "start":"16:00",
         "end":"17:15",
         "dojo":true,
         "description":"Interested in mobile development for the Android platform? Come and write an app with us. Not interested in mobile apps, but like little green robots? Well, then you're still invited."
@@ -299,7 +321,7 @@
     {
         "id":28,
         "speaker":"Dale Zak ",
-        "title":"TBD",
+        "title":"Ushahidi Platform",
         "room":"Tuscany AB",
         "date":"2012-10-02",
         "start":"08:00",
@@ -354,10 +376,21 @@
     {
         "id":33,
         "speaker":"Aaron Jones",
-        "title":"Source Control Crusades",
+        "title":"Source Control Crusades (Part 1)",
         "room":"Tuscany AB",
         "date":"2012-10-02",
         "start":"09:20",
+        "end":"10:30",
+        "dojo":true,
+        "description":"This will be an introductory session on Source control and address the Holy war that is upon us between the various technologies in the CYA (cover your ass) ecosystem. We will see the benefits of using the different technologies so that you can make a conscious decision when choosing a Source Control tool in your environment."
+    },
+    {
+        "id":54,
+        "speaker":"Aaron Jones",
+        "title":"Source Control Crusades (Part 2)",
+        "room":"Tuscany AB",
+        "date":"2012-10-02",
+        "start":"10:45",
         "end":"12:00",
         "dojo":true,
         "description":"This will be an introductory session on Source control and address the Holy war that is upon us between the various technologies in the CYA (cover your ass) ecosystem. We will see the benefits of using the different technologies so that you can make a conscious decision when choosing a Source Control tool in your environment."
@@ -376,10 +409,21 @@
     {
         "id":35,
         "speaker":"David Mosher",
-        "title":"Using Node.JS to Manage Client Side Development",
+        "title":"Using Node.JS to Manage Client Side Development (Part 1)",
         "room":"Umbria",
         "date":"2012-10-02",
         "start":"09:20",
+        "end":"10:30",
+        "dojo":true,
+        "description":"Node.JS is a powerful platform that most consider useful for developing network services that require high concurrency. In this dojo you will learn how to use Node.JS, Express.JS and the Browserify plugin to manage client-side dependencies and craft a development environment that will help you rapidly bundle and deliver client-side code. We'll learn how to build a simple photo viewing application from the ground up using the Flickr API and Node.JS."
+    },
+    {
+        "id":53,
+        "speaker":"David Mosher",
+        "title":"Using Node.JS to Manage Client Side Development (Part 2)",
+        "room":"Umbria",
+        "date":"2012-10-02",
+        "start":"10:45",
         "end":"12:00",
         "dojo":true,
         "description":"Node.JS is a powerful platform that most consider useful for developing network services that require high concurrency. In this dojo you will learn how to use Node.JS, Express.JS and the Browserify plugin to manage client-side dependencies and craft a development environment that will help you rapidly bundle and deliver client-side code. We'll learn how to build a simple photo viewing application from the ground up using the Flickr API and Node.JS."
@@ -390,9 +434,9 @@
         "title":"Multitaskers Anonymous",
         "room":"Trentino",
         "date":"2012-10-02",
-        "start":"09:20",
-        "end":"10:30",
-        "dojo":false,
+        "start":"08:00",
+        "end":"09:10",
+        "dojo":true,
         "description":"When I am introduced to new clients I often find one consistent practice – most team members are assigned to multiple projects. Is this your reality? Do you like it? Are you proud of your multitasking skills? If you are frustrated by working on more than one project, are you able to articulate why this is good or bad? Join us for an exercise and discussion on the pros/cons of multitasking using the Hands/Numbers/Song game. You will gain insights into the costs of task switching and have answers for your manager the next time they ask if you can take on one more project. Better yet, bring your manager along and let them experience it for themselves and ask their own questions."
     },
     {
@@ -453,10 +497,21 @@
     {
         "id":42,
         "speaker":"Jordan Boesch",
-        "title":"Build an HTML5 Mobile App with Sencha Touch",
+        "title":"Build an HTML5 Mobile App with Sencha Touch (Part 1)",
         "room":"Tuscany AB",
         "date":"2012-10-02",
         "start":"13:00",
+        "end":"14:15",
+        "dojo":true,
+        "description":"Wanna build a mobile friendly app that isn't sluggish and looks pretty? Love JavaScript? We'll you passed that test! We'll dive head first into building an app using the popular Sencha Touch HTML5 framework. Sencha Touch is a framework catered only to modern touch devices like iOS, Android and BlackBerry 6+ (sorry Nokia 3310). It's based of of the popular MVC ExtJS framework. So yes, it's all JavaScript baby."
+    },
+    {
+        "id":57,
+        "speaker":"Jordan Boesch",
+        "title":"Build an HTML5 Mobile App with Sencha Touch (Part 2)",
+        "room":"Tuscany AB",
+        "date":"2012-10-02",
+        "start":"14:30",
         "end":"15:45",
         "dojo":true,
         "description":"Wanna build a mobile friendly app that isn't sluggish and looks pretty? Love JavaScript? We'll you passed that test! We'll dive head first into building an app using the popular Sencha Touch HTML5 framework. Sencha Touch is a framework catered only to modern touch devices like iOS, Android and BlackBerry 6+ (sorry Nokia 3310). It's based of of the popular MVC ExtJS framework. So yes, it's all JavaScript baby."
@@ -548,27 +603,5 @@
         "end":"17:15",
         "dojo":false,
         "description":"No description :("
-    },
-    {
-        "id":51,
-        "speaker":"Matt Haines",
-        "title":"Hardware Projects for Software Devs",
-        "room":"Campania",
-        "date":"2012-10-02",
-        "start":"16:00",
-        "end":"17:15",
-        "dojo":false,
-        "description":"No description :("
-    },
-    {
-        "id":52,
-        "speaker":"Aaron Kowal",
-        "title":"VS.NET 2012: Tools for Teamwork",
-        "room":"Umbria",
-        "date":"2012-10-02",
-        "start":"16:00",
-        "end":"17:15",
-        "dojo":false,
-        "description":"Visual Studio 2012 is more than just about writing code, in this session we’ll focus on the Application Lifecycle Management (ALM) features of Visual Studio. You’ll learn about topics like Product Backlog / Task Board, My Work, Local workspaces, Code Review, Code Comparison, Rollback, etc., all of them supported by Team Foundation Server and Visual Studio 2012."
     }
 ]
