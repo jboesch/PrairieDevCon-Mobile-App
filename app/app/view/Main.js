@@ -7,10 +7,7 @@ Ext.define('PDC.view.Main', { // The name of your class. Namespace.[type].classN
             defaults: {
                 flex: 1
             },
-            docked: 'bottom',
-            layout: {
-                pack: 'center'
-            }
+            docked: 'bottom'
         },
 
         items: [

@@ -102,6 +102,12 @@ Ext.application({
                 <!--</section>-->
 
                 <section>
+                    <h2>But where is 'Main' located?</h2>
+                    <p>Main.js is located in app/view/Main.js</p>
+
+                </section>
+
+                <section>
                     <h2>How each class is setup</h2>
                     <p>Inside each of the MVC files, there is a standard way you setup your classes.</p>
                     <p>Ext.define();</p>
@@ -109,68 +115,89 @@ Ext.application({
 
                 <section>
                     <h2>Ext.define()</h2>
-                    <p></p>
-                </section>
-
-                <section>
-                    <h2>The code</h2>
-                    <pre><code>var ws = new WebSocket('ws://localhost');
-
-ws.onopen = function(){
-    // do something when the socket connects successfully
-}
-ws.onmessage = function(evt){
-    // message is contained in evt.data
-}
-ws.onerror = function(){
-    // do something when an error occurs
-}
-ws.onclose = function(){
-    // do something when the socket is closed
-}
+                    <pre><code contenteditable>Ext.define('[AppNamespace].[folder].[FileName]', { gigantic config object });
                     </code></pre>
                 </section>
 
                 <section>
-                    <h2>What browsers support native WebSockets?</h2>
-                    <ul>
-                        <li>Google Chrome 14+</li>
-                        <li>Safari 5+</li>
-                        <li>Firefox 6+</li>
-                        <li>Opera 11+</li>
-                        <li>iOS 4.2+</li>
-                        <li>Internet Explorer 6... AHH just kidding. IE 10.</li>
-                    </ul>
+                    <h2>Contents of Main.js</h2>
+                    <pre><code contenteditable>Ext.define('PDC.view.Main', {
+    extend: 'Ext.tab.Panel',
+    xtype: 'main',
+
+    config: {
+        tabBar: {
+            flex: 1,
+            docked: 'bottom'
+        },
+
+        items: [
+            {
+                xtype: 'sessions',
+                title: 'Sessions',
+                iconCls: 'time'
+            }
+        ]
+    }
+});
+                    </code></pre>
+                </section>
+
+                <section>
+                    <h2>extend</h2>
+                    <pre><code contenteditable>extend: 'Ext.tab.Panel'</code></pre>
+                    <p>Extending the parent class</p>
+                </section>
+
+                <section>
+                    <h2>xtype</h2>
+                    <pre><code contenteditable>xtype: 'main'</code></pre>
+                    <p>An alias for the component we're defining. The format for this is typically lowercase letters only. Example 'sessiondetails'.</p>
+                    <p>Used for referencing components easily and lazily loading them.</p>
+                </section>
+
+                <section>
+                    <h2>config</h2>
+                    <pre><code contenteditable>config: { ... }</code></pre>
+                    <p>Allows you to add specific items and set configuration to build your view.</p>
+                    <p>A config object is standard across all components. You will see this everywhere!</p>
+                    <p>Look at <a href="http://docs.sencha.com/touch/2-0/">http://docs.sencha.com/touch/2-0/</a> for an overview of what config options can be passed to that specific component (Ext.tab.Panel).</p>
+                </section>
+
+                <section>
+                    <h2>config: { tabBar: ... }</h2>
+                    <pre><code contenteditable>config: {
+    tabBar: {
+        flex: 1,
+        docked: 'bottom'
+    }
+}</code></pre>
+                    <p>This tabBar option is specific to the Ext.tab.Panel component and has its own set of options.</p>
                 </section>
 
 				<section>
-					<h2>Fallbacks for older browsers?</h2>
-					<p>Socket.IO (<a href="http://socket.io">www.socket.io</a>) for NodeJS</p>
-                    <h4>Server side</h4>
-                    <pre><code contenteditable>var io = require('socket.io').listen(80);
-
-io.sockets.on('connection', function (socket) {
-    socket.on('message', function () { });
-    socket.on('disconnect', function () { });
-});
-                    </code></pre>
-                    <h4>Client side</h4>
-                    <pre><code contenteditable>var socket = io.connect('http://localhost/');
-socket.on('connect', function () {
-    socket.on('message', function (msg) {
-
-    });
-    socket.send('hi');
-});
-                    </code></pre>
+					<h2>tabBar set to docked: 'bottom'</h2>
+                    <img src="img/tabbar-bottom.png" />
 				</section>
 
+                <section>
+                    <h2>tabBar set to docked: 'top'</h2>
+                    <img src="img/tabbar-top.png" />
+                </section>
+
 				<section>
-					<h2>Current state</h2>
+					<h2>config: { tabBar: { flex: 1 } }</h2>
 					<p>
-                        The WebSocket API is being standardized by the W3C, and the WebSocket protocol has been standardized by the IETF as RFC 6455.
+                        Setting flex: 1 means it will stretch the buttons out over the width of the screen. If it wasn't, they would all bunch together.
 					</p>
 				</section>
+
+                <section>
+                    <h2>config: { items: [] }</h2>
+                    <p>
+                        Items in a way of adding other components within the viewport of the current component.
+                    </p>
+                </section>
 
 				<section>
 					<h1>THE END</h1>
