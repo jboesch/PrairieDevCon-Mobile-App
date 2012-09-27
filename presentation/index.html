@@ -19,6 +19,11 @@
 		<link rel="stylesheet" href="css/print.css" type="text/css" media="print">
 
 		<link rel="stylesheet" href="lib/zenburn.css">
+        <style type="text/css">
+            .ch {
+                margin-top: 20% !important;
+            }
+        </style>
 	</head>
 	
 	<body>
@@ -43,7 +48,7 @@
 				<section>
 					<h2>What is it?</h2>
 
-                    <p>Sencha Touch 2 is the only framework that enables developers to build fast and impressive apps that work on iOS, Android, BlackBerry, Kindle Fire, and more.</p>
+                    <p>Sencha Touch 2 is a framework that enables developers to build fast and impressive apps that work on iOS, Android, BlackBerry, Kindle Fire, and more.</p>
 
 				</section>
 				
@@ -70,7 +75,7 @@
                 </section>
 
                 <section>
-                    <img src="img/sencha-app-structure.png" />
+                    <img src="img/sencha-app-structure.png" style="margin:0;" />
                 </section>
 
                 <section>
@@ -120,14 +125,28 @@ Ext.application({
                 </section>
 
                 <section>
-                    <h2>Contents of Main.js</h2>
+                    <h1 class="ch">Views</h1>
+                </section>
+
+                <section>
+                    <h2>What are they?</h2>
+                    <p>
+                        Views are what the user sees. They are made up of a component and can have other child components within them.
+                    </p>
+                </section>
+
+                <section>
+                    <h2>How does that look?</h2>
+                    <h3>view/Main.js</h3>
                     <pre><code contenteditable>Ext.define('PDC.view.Main', {
     extend: 'Ext.tab.Panel',
     xtype: 'main',
 
     config: {
         tabBar: {
-            flex: 1,
+            defaults: {
+                flex: 1,
+            },
             docked: 'bottom'
         },
 
@@ -168,7 +187,9 @@ Ext.application({
                     <h2>config: { tabBar: ... }</h2>
                     <pre><code contenteditable>config: {
     tabBar: {
-        flex: 1,
+        defaults: {
+            flex: 1,
+        },
         docked: 'bottom'
     }
 }</code></pre>
@@ -186,23 +207,141 @@ Ext.application({
                 </section>
 
 				<section>
-					<h2>config: { tabBar: { flex: 1 } }</h2>
+					<h2>config: { tabBar: { defaults: { flex: 1 } } }</h2>
 					<p>
                         Setting flex: 1 means it will stretch the buttons out over the width of the screen. If it wasn't, they would all bunch together.
 					</p>
+
 				</section>
+                <section>
+                    <h2>flex: 0</h2>
+                    <img src="img/tabbar-flex-0.png"/>
+                </section>
 
                 <section>
                     <h2>config: { items: [] }</h2>
                     <p>
-                        Items in a way of adding other components within the viewport of the current component.
+                        A way of adding other components within the viewport of the current component.
                     </p>
                 </section>
 
 				<section>
-					<h1>THE END</h1>
-					<h3 class="inverted">Now let's build an awesome balloon popping game!</h3>
+					<h1 class="ch">Models</h1>
 				</section>
+
+                <section>
+                    <h2>What are they?</h2>
+                    <p>
+                        A Model represents some object that your application manages.
+                    </p>
+                    <p>
+                        For example, one might define a Model for Users, Products, Cars, or any other real-world object that we want to model in the system.
+                    </p>
+                    <p>
+                        They are defined as singular. Users would be defined as User.
+                    </p>
+                </section>
+
+                <section>
+                    <h2>How does that look?</h2>
+                    <h3>model/Session.js</h3>
+                    <pre><code contenteditable>Ext.define('PDC.model.Session', {
+    extend: 'Ext.data.Model',
+    config: {
+        fields: ['id', 'speaker', ...]
+    }
+});
+</code></pre>
+                    <p>See any similarities to the view/Main.js file?</p>
+                    <ul>
+                        <li class="fragment">Ext.define</li>
+                        <li class="fragment">extend:</li>
+                        <li class="fragment">config:</li>
+                    </ul>
+                </section>
+
+
+                <section>
+                    <h1 class="ch">Stores</h1>
+                </section>
+
+                <section>
+                    <h2>What are they?</h2>
+                    <p>
+                        The Store class encapsulates a client side cache of Model objects.
+                        Stores load data via a Proxy, and also provide functions for sorting, filtering and querying the model instances contained within it.
+                    </p>
+                </section>
+
+                <section>
+                    <h2>How does that look?</h2>
+                    <h3>store/Sessions.js</h3>
+                    <pre><code contenteditable>Ext.define('PDC.store.Sessions', {
+    extend: 'Ext.data.Store',
+
+    config: {
+        model: 'PDC.model.Session',
+        proxy: {
+            type: 'ajax',
+            url : 'data/sessions.json',
+            reader: {
+                type: 'json'
+            }
+        },
+        autoLoad: true
+    }
+});</code></pre>
+
+                    <p>See any similarities to the view/Main.js file?</p>
+                    <ul>
+                        <li class="fragment">Ext.define</li>
+                        <li class="fragment">extend:</li>
+                        <li class="fragment">config:</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h1 class="ch">Controllers</h1>
+                </section>
+
+                <section>
+                    <h2>What are they?</h2>
+                    <p>
+                        Controllers are responsible for responding to events that occur within your app.
+                    </p>
+                    <p>
+                        It allows the View classes to handle the display of data and the Model classes to handle the loading and saving of data - the Controller is the glue that binds them together.
+                    </p>
+                </section>
+
+                <section>
+                    <h2>How does that look?</h2>
+                    <h3>controller/Sessions.js</h3>
+                    <pre><code contenteditable>Ext.define('PDC.controller.Sessions', {
+
+    extend: 'Ext.app.Controller',
+
+    config: {
+
+        refs: {
+            main: 'main'
+        },
+
+        control: {
+            segmentedbutton: {
+                toggle: 'switchSessionDate'
+            }
+        }
+    },
+
+    switchSessionDate: function(segment, button_clicked){
+        console.log('OMG we just clicked on the date button bar for switching session dates!');
+        console.log(this.getMain()); // gives us to the main view component (view/Main.js)
+    });
+
+});</code></pre>
+                </section>
+
 			</div>
 
 			<!-- The navigational controls UI -->

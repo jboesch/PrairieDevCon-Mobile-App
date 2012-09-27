@@ -1,0 +1,728 @@
+[
+    {
+        "id":1,
+        "speaker":"Jason Toews",
+        "title":"Keynote - GasBuddy: Home Grown Success",
+        "room":"Lombardy A",
+        "date":"2012-10-01",
+        "start":"08:15",
+        "end":"08:45",
+        "dojo":false,
+        "description":"From its beginning in 2000, GasBuddy.com has been proof that ‘local’ does not mean ‘small’. With its innovative concept and over 20 million downloads, the GasBuddy mobile app was rated #6 Overall by Time Magazine in 2012. Join Jason Toews, CEO, as he speaks about the development philosophies and overall business strategies that created this runaway success, and about attracting top talent to our ‘small’ corner of the tech world."
+    },
+    {
+        "id":2,
+        "speaker":"James Kovacs",
+        "title":"Learning to Love Javascript",
+        "room":"Lombardy A",
+        "date":"2012-10-01",
+        "start":"09:00",
+        "end":"10:15",
+        "dojo":false,
+        "description":"For years JavaScript was ridiculed as a toy, the red-headed step child of the programming languages. It got less respect than Rodney Dangerfield or BASIC. But JavaScript has grown up and is looking more competent all the time. In this session we’ll take a look at some of the must-know JavaScript libraries that should be in every web developer’s toolbox, including jQuery and Underscore.js. We’ll also delve into the fundamentals of testable JavaScript using QUnit and Jasmine."
+    },
+    {
+        "id":3,
+        "speaker":"David Wesst",
+        "title":"Web & Cloud Development (VS Web)",
+        "room":"Lombardy B",
+        "date":"2012-10-01",
+        "start":"09:00",
+        "end":"10:15",
+        "dojo":false,
+        "description":"This release of Visual Studio 2012 brings a host of new features and improvements for web & cloud development. In this session you will learn about web development trends and how Microsoft’s Web Platform is there to help you reach every device, every platform and reach for the cloud. You’ll learn about the new project templates, mobile & bundling, Entity Framework 5 and of course learn and see demos of Virtual Studio 2012 & application deployment possibilities offered by Windows Azure."
+    },
+    {
+        "id":4,
+        "speaker":"Tom Opgenorth",
+        "title":"Induction into the       Android Army",
+        "room":"Tuscany AB",
+        "date":"2012-10-01",
+        "start":"09:00",
+        "end":"10:15",
+        "dojo":false,
+        "description":"ADB, APK, Activities, and Android. If you're curious about getting started with Android development, come on out for a fast and furious introduction to the things you need to know in order to get started."
+    },
+    {
+        "id":5,
+        "speaker":"Amir Barylko",
+        "title":"Advanced Design Patterns",
+        "room":"Campania",
+        "date":"2012-10-01",
+        "start":"09:00",
+        "end":"10:15",
+        "dojo":false,
+        "description":"Do you feel that there is more to patterns that what you do every day at work? Would you like to learn what others use for modeling solutions featuring: * Object construction, behavior and collaboration * Multi Threading * Domain persistance * Database Testing * Decoupling and messaging * (put yours here) This is the session for you! Something to learn, something to teach and something to take home! Bring the patterns you like, questions and issues that your struggle with when it comes to modeling and design. Don't forget: your participation is key! In summary: You show me yours, I'll show you mine and have a design pattern party!"
+    },
+    {
+        "id":6,
+        "speaker":"Tommy Lee",
+        "title":"The Windows 8 Platform",
+        "room":"Umbria",
+        "date":"2012-10-01",
+        "start":"09:00",
+        "end":"10:15",
+        "dojo":false,
+        "description":"Windows 8 marks the next step in the evolution of the Microsoft design style. Through the bold use of color, typography and motion, it brings a fresh new approach to the user experience. In this talk, you'll learn the design principles behind the Microsoft design style and get insights into how to apply these principles in your own apps."
+    },
+    {
+        "id":7,
+        "speaker":"Melanie Cey",
+        "title":"Web Ops",
+        "room":"Lombardy A",
+        "date":"2012-10-01",
+        "start":"10:30",
+        "end":"11:45",
+        "dojo":false,
+        "description":"You may have heard the term \"devops\" floating around over the last few years. Recently, there has been an explosion in adoption of the practices outlined as part of the movement. As a developer turned systems administrator, I have first hand experience and understanding of both functional and non-functional requirements. I'd like to cover the principles, how the movement started and has recently gained steam with some big players (like Etsy), and how some companies are embracing the change. I will give an overview of the change in our operations and system stability overall since we began to adopt the practices related to DevOps."
+    },
+    {
+        "id":8,
+        "speaker":"James Chambers",
+        "title":"A Tour of ASP.NET Web API",
+        "room":"Lombardy B",
+        "date":"2012-10-01",
+        "start":"10:30",
+        "end":"11:45",
+        "dojo":false,
+        "description":"Join us for an overview of the Web API on the Asp.Net stack and find out why developers from several disciplines - web, server, and mobile - are jumping on board. We'll take a look at the difference between RPC-style web services and approaches that are RESTful, talk about why the Web API is important and where you can use it, and cover the differences (and similarities!) between MVC-style and Web API-style routing, authorization and authentication. We'll have examples of model binding and serialization as well as content negotiation and media formatters and we'll try to have a little fun along the way."
+    },
+    {
+        "id":9,
+        "speaker":"Nick Landry",
+        "title":"iOS for .NET Devs",
+        "room":"Tuscany AB",
+        "date":"2012-10-01",
+        "start":"10:30",
+        "end":"11:45",
+        "dojo":false,
+        "description":"You’ve been a .NET developer for the last 10 years. You love Visual Studio. You can spit out C# like a boy scout can tie a knot. But now your boss wants you to build an iPad app for the company. Or maybe you got a good deal on a Mac on eBay and you’ll finally write that cool iPhone app that will top the other 600K in the iOS App Store. So where do you get started? What development environment do you use? How do you write apps in Objective C? What other tools & libraries can you use? This session is your survival guide to the world of iOS development as seen from the eyes of a .NET developer. We’ll start from the basics and build our first iOS app, using analogies and comparisons from the familiar world of Visual Studio as our guide. We’ll also discuss how to test & deploy our app, and hack our way through the Apple forest, learning to blend in and talk like a true native. If you’ve ever considered dipping your toes in the iWaters, this session is your chance to take your first dive."
+    },
+    {
+        "id":10,
+        "speaker":"David Mosher",
+        "title":"Want to be a Front-End Engineer?",
+        "room":"Campania",
+        "date":"2012-10-01",
+        "start":"10:30",
+        "end":"11:45",
+        "dojo":false,
+        "description":"Browsers: The Final Frontier. The most volatile programming platform the world has ever known. You're a seasoned engineer who has mastered the art of server-side dev. You've conquered .NET, Java, and many more. You know a little bit about the strange new world of client-side development and you'd like to take your understanding to the next level. Good! Our mission: to explore the implementation details of the Browser, HTML, CSS, and JavaScript; to examine the tools and techniques that will help you boldly go where few have gone before, from Hacker to Front-End Engineer."
+    },
+    {
+        "id":11,
+        "speaker":"Tommy Lee",
+        "title":"Design Win 8 Store Apps",
+        "room":"Umbria",
+        "date":"2012-10-01",
+        "start":"10:30",
+        "end":"11:45",
+        "dojo":false,
+        "description":""
+    },
+    {
+        "id":12,
+        "speaker":"Frode Aarebrot",
+        "title":"Building SharePoint 2010 Workflows",
+        "room":"Lombardy A",
+        "date":"2012-10-01",
+        "start":"13:00",
+        "end":"14:15",
+        "dojo":false,
+        "description":"Transform your business processes using SharePoint workflow. SharePoint can automate tasks, reduce workload, save time, increase production, bring consistency and help meet audit and compliance requirements. In this session we’ll unravel the mystery of creating custom workflows with task forms including proper packaging and deployment."
+    },
+    {
+        "id":13,
+        "speaker":"Simon Timms",
+        "title":"Queing Tech for Distribution and Scalability",
+        "room":"Lombardy B",
+        "date":"2012-10-01",
+        "start":"13:00",
+        "end":"14:15",
+        "dojo":false,
+        "description":"Communicating between processes has never been easier than when using message queues. In this talk we’ll explore a couple of different queuing technologies, discuss how they handle distribution and scalability and implement a couple of simple applications making use of queues."
+    },
+    {
+        "id":14,
+        "speaker":"David Wesst",
+        "title":"HTML5: Parts You Care About",
+        "room":"Tuscany AB",
+        "date":"2012-10-01",
+        "start":"13:00",
+        "end":"14:15",
+        "dojo":false,
+        "description":"HTML5 is here to stay, but how to you keep know what information is important and what isn’t just “the buzz”. The goal of this presentation is to give you the knowledge and tools to you need to understand how HTML5 can be applied to _your_ software development world. We’ll discuss and view the current state of HTML5, review some of the common assumptions going on about HTML5, and how to start getting you and your developers off to a good start with HTML5."
+    },
+    {
+        "id":15,
+        "speaker":"Mike DeFehr",
+        "title":"What's New in SQL Server 2012",
+        "room":"Campania",
+        "date":"2012-10-01",
+        "start":"13:00",
+        "end":"14:15",
+        "dojo":false,
+        "description":"SQL 2012 has been out for several months now, but if you’re not sure what it’s all about, this session is for you. We will take a look at the new high availability features, columnar indexes, contained database authentication, the new developer tools (codename “Juneau”), FileTable and some TSQL Language enhancements. This is a can’t miss session – especially if you are planning any DBMS upgrades or new projects."
+    },
+    {
+        "id":16,
+        "speaker":"Brett Park",
+        "title":"iOS: Top Tips from Dev, Marketing, & Design           Bradford Parkendorf",
+        "room":"Umbria",
+        "date":"2012-10-01",
+        "start":"13:00",
+        "end":"14:15",
+        "dojo":false,
+        "description":"Tons of tips such as Audio setup hangups, how to make an additional 5% profit, when to market, what day to release, app wide settings pattern, resolution independent workflow, and the kitchen sink. Some tips dig deep into low level code, while others are general purpose must knows. If you want to walk away with more knowledge than you can fit in your brain, there's a tip for that too."
+    },
+    {
+        "id":17,
+        "speaker":"Steve Rogalsky",
+        "title":"Silence of Agile",
+        "room":"Trentino",
+        "date":"2012-10-01",
+        "start":"13:00",
+        "end":"14:15",
+        "dojo":true,
+        "description":"Learn how silence can increase collaboration and engagement while helping your agile project be more productive. Silent brainstorming allows everyone to have a voice - the loud people can't dominate the conversation, the quiet people are provided with a way to contribute, cognitive fixation is reduced, and ownership of ideas is increased. It turns out that using silence is also a very effective brainstorming technique in terms of the variety and number of ideas generated. We'll discuss the science of brainstorming and then practice a simple form of silent brainstorming. During the last half of the session I'll show you techniques for using silent brainstorming to create working agreements, create user story maps, generate user stories, prioritize your stories, brainstorm ideas for your retrospective, and more."
+    },
+    {
+        "id":18,
+        "speaker":"David Paquette",
+        "title":"Intro to EF Code First",
+        "room":"Lombardy A",
+        "date":"2012-10-01",
+        "start":"14:30",
+        "end":"15:45",
+        "dojo":false,
+        "description":"We will start from scratch in this intro to Entity Framework Code First. We will build a simple application using ASP.NET MVC and Entity Framework and evolve the application to show how we can build scalable applications using Entity Framework Code First. Topics covered will include database initialization, code based migrations, performance profiling and performance tuning."
+    },
+    {
+        "id":19,
+        "speaker":"Tyler Doerksen",
+        "title":"Azure Has Grown Up",
+        "room":"Lombardy B",
+        "date":"2012-10-01",
+        "start":"14:30",
+        "end":"15:45",
+        "dojo":false,
+        "description":"Windows Azure has grown up a lot in the last little while. If you’ve not been at a Windows Azure session before, this session will give a tour of the entire platform. If you’ve been, come take a look at all of the new features of the platform including Windows Azure Virtual Machines, Websites, Mobile Services, and more."
+    },
+    {
+        "id":20,
+        "speaker":"James Chambers",
+        "title":"ASP.NET MVC 4 Dojo (Part 1)",
+        "room":"Tuscany AB",
+        "date":"2012-10-01",
+        "start":"14:30",
+        "end":"15:45",
+        "dojo":true,
+        "description":"Fear not, tireless web warriors, you too can get started in the MVC Framework, it's as simple as File -> New -> Project! Bring your laptop and take a break from Web Forms while we walk through the key components and add them to your battle arsenal. Know Ruby? Great! Cross train for a bit and get a good feel for what your .NET brethren are up to. A hands-on lab that will walk you through Razor, routing, model binding, filters, authentication and authorization, the MVC tool chain (including NuGet) and complimentary bits (like jQuery) to make your . We'll build a site with all of the above. Come for the pattern, stay for the framework!"
+    },
+    {
+        "id":55,
+        "speaker":"James Chambers",
+        "title":"ASP.NET MVC 4 Dojo (Part 2)",
+        "room":"Tuscany AB",
+        "date":"2012-10-01",
+        "start":"16:00",
+        "end":"17:15",
+        "dojo":true,
+        "description":"Fear not, tireless web warriors, you too can get started in the MVC Framework, it's as simple as File -> New -> Project! Bring your laptop and take a break from Web Forms while we walk through the key components and add them to your battle arsenal. Know Ruby? Great! Cross train for a bit and get a good feel for what your .NET brethren are up to. A hands-on lab that will walk you through Razor, routing, model binding, filters, authentication and authorization, the MVC tool chain (including NuGet) and complimentary bits (like jQuery) to make your . We'll build a site with all of the above. Come for the pattern, stay for the framework!"
+    },
+    {
+        "id":21,
+        "speaker":"Donald Belcham",
+        "title":"Continuous Integration Evolved",
+        "room":"Campania",
+        "date":"2012-10-01",
+        "start":"14:30",
+        "end":"15:45",
+        "dojo":false,
+        "description":"As continuous integration has taken hold in many development teams and organizations, we need to continue to explore the boundaries of the overall development lifecycle. Continuous integration is fine if we want to prove to the rest of the development team that new feature commits are functioning as expected and haven't introduced any regressions. What does a 'green build' prove to the business? The overriding question that needs to be considered is one that determines when the development process provides value to the business. This session will explore the still evolving practice of continuous integration, the problems that are being faced and the direction that the leading edge of the industry is heading. Continuous delivery and continuous deployment will be defined and their role in the SDLC will be discussed. Organizational and regulatory constraints and their impact on these process will also be raised. By the end of the session, attendees will have a strong foundation to help them pursue bettering the development processes that they are a part of."
+    },
+    {
+        "id":22,
+        "speaker":"Brent Watson",
+        "title":"Android - Come Build an App! (Part 1)",
+        "room":"Umbria",
+        "date":"2012-10-01",
+        "start":"14:30",
+        "end":"15:45",
+        "dojo":true,
+        "description":"Interested in mobile development for the Android platform? Come and write an app with us. Not interested in mobile apps, but like little green robots? Well, then you're still invited."
+    },
+    {
+        "id":56,
+        "speaker":"Brent Watson",
+        "title":"Android - Come Build an App! (Part 2)",
+        "room":"Umbria",
+        "date":"2012-10-01",
+        "start":"16:00",
+        "end":"17:15",
+        "dojo":true,
+        "description":"Interested in mobile development for the Android platform? Come and write an app with us. Not interested in mobile apps, but like little green robots? Well, then you're still invited."
+    },
+    {
+        "id":23,
+        "speaker":"Chris Dagenais",
+        "title":"Process Overload - Cut Yourself Free!",
+        "room":"Lombardy A",
+        "date":"2012-10-01",
+        "start":"16:00",
+        "end":"17:15",
+        "dojo":false,
+        "description":"Agile is taught as being the opposite end of the spectrum from Waterfall, but have we gone too far? One of the worst qualities of waterfall is the amount of process that must occur before any work can begin. We claim to have fixed this with agile practices, but we regularly see teams constantly in meetings, constantly working to refine estimates, refusing to move forward on a work item until a BA adds some acceptance criteria... Does this sound better than what you had before? Because agile teaches constantly trying new things to improve your process it is easy to just keep adding and adding to it over time. Learn some of the things to watch for and when it's a good idea to cut down your process instead of add to it."
+    },
+    {
+        "id":24,
+        "speaker":"Jason Kaczor",
+        "title":"Office 365 & SharePoint Hybrid Solutions",
+        "room":"Lombardy B",
+        "date":"2012-10-01",
+        "start":"16:00",
+        "end":"17:15",
+        "dojo":false,
+        "description":"Learn how to build hybrid solutions which bring local, on-premise data into the SharePoint Online (Office 365) cloud using Azure and other techniques."
+    },
+    {
+        "id":25,
+        "speaker":"Eden Rohatensky",
+        "title":"Do This; No Do That?",
+        "room":"Campania",
+        "date":"2012-10-01",
+        "start":"16:00",
+        "end":"17:15",
+        "dojo":false,
+        "description":"In the end, the goal is always a great product. Sometimes it's easy to lose sight of this when the worlds of developers and designers collide. Using real-world examples and metaphors, I'd like to provide a guideline for maintaining proper communication and collaboration between everyone to ensure a great result."
+    },
+    {
+        "id":26,
+        "speaker":"Chad McCallum",
+        "title":"8 .NET Web Services in 75 Minutes",
+        "room":"Lombardy A",
+        "date":"2012-10-02",
+        "start":"08:00",
+        "end":"09:10",
+        "dojo":false,
+        "description":"With the recent release of the ASP.NET Web API, there's a dozen different ways of creating web services in .NET. Using both first-party and third-party libraries, we'll create 8 web services with different technologies, while also touching on the differences of SOAP and REST web services."
+    },
+    {
+        "id":27,
+        "speaker":"Darrel Sharpe",
+        "title":"Cloud Ops to Dev Ops - Monitoring\/Managing Apps in the Cloud",
+        "room":"Lombardy B",
+        "date":"2012-10-02",
+        "start":"08:00",
+        "end":"09:10",
+        "dojo":false,
+        "description":"The transition from Physical Infrastructures of yesterday to the cloud today, roles and requirements are changing. Darrel will describe the emerging roles of CloudOps and DevOps, how they are different from each other and what they need from each other to be successful."
+    },
+    {
+        "id":28,
+        "speaker":"Dale Zak ",
+        "title":"Ushahidi Platform",
+        "room":"Tuscany AB",
+        "date":"2012-10-02",
+        "start":"08:00",
+        "end":"09:10",
+        "dojo":false,
+        "description":""
+    },
+    {
+        "id":29,
+        "speaker":"Mike DeFehr",
+        "title":"SQL Server Extended Events",
+        "room":"Campania",
+        "date":"2012-10-02",
+        "start":"08:00",
+        "end":"09:10",
+        "dojo":false,
+        "description":"Did you know that SQL Profiler has been deprecated? Don’t worry, you’ll still be able to use it for a while but why not take a look at what is replacing it? Extended Events is SQL Server’s new tracing technology. It is both more powerful and has less impact on performance than SQL Trace/Profiler. In this demo-heavy session, you’ll learn how to get started with this powerful tool, and we will explore several common tracing/diagnostic scenarios such as deadlocks, query tuning and performance tuning."
+    },
+    {
+        "id":30,
+        "speaker":"Omer Qureshi",
+        "title":"Spring & Spring.NET - Developing for the Cloud",
+        "room":"Umbria",
+        "date":"2012-10-02",
+        "start":"08:00",
+        "end":"09:10",
+        "dojo":false,
+        "description":"Spring.NET is the framework inspired by the widely popular Spring Framework that Java developers have been using for years. Omer will explain what Spring and Spring.NET are and why developers should consider using them in their projects. He will also talk about the benefits of using it to gain portability across cloud providers."
+    },
+    {
+        "id":31,
+        "speaker":"Tom Opgenorth",
+        "title":"X-Platform Dev with Xamarin",
+        "room":"Lombardy A",
+        "date":"2012-10-02",
+        "start":"09:20",
+        "end":"10:30",
+        "dojo":false,
+        "description":"Have a need or an interest in developing applications across platoforms like Mac, Windows, Android, and iOS? Don't have any interest in having to maintain two separate codebases? Come see how to build cross platform apps with Xamarin's tools, all in one handy powerful language: C#"
+    },
+    {
+        "id":32,
+        "speaker":"Nick Landry",
+        "title":"Getting Started with WP Dev",
+        "room":"Lombardy B",
+        "date":"2012-10-02",
+        "start":"09:20",
+        "end":"10:30",
+        "dojo":false,
+        "description":"This session is your fast track into the new wonderful world of Windows Phone development. Come learn how your valuable .NET and Silverlight skills now make you a hot mobile developer. We’ll perform a quick lap around Microsoft Visual Studio 2010 and the Windows Phones SDK, build our first app using Silverlight and Expression Blend, and debug it with the Windows Phone Emulator. We’ll then explore the various Windows Phone SDK services and features, such as touch gestures, accelerometers, rich media, notifications, location and more. We’ll also explore various toolkits and frameworks available to you for free to augment your development experience and productivity. It’s time to drop that “other” phone. Pick-up a phone you will actually enjoy coding for. If you’ve waited this long to jump on board the mobility bandwagon, wait no more: This is the mobile platform you always wanted!"
+    },
+    {
+        "id":33,
+        "speaker":"Aaron Jones",
+        "title":"Source Control Crusades (Part 1)",
+        "room":"Tuscany AB",
+        "date":"2012-10-02",
+        "start":"09:20",
+        "end":"10:30",
+        "dojo":true,
+        "description":"This will be an introductory session on Source control and address the Holy war that is upon us between the various technologies in the CYA (cover your ass) ecosystem. We will see the benefits of using the different technologies so that you can make a conscious decision when choosing a Source Control tool in your environment."
+    },
+    {
+        "id":54,
+        "speaker":"Aaron Jones",
+        "title":"Source Control Crusades (Part 2)",
+        "room":"Tuscany AB",
+        "date":"2012-10-02",
+        "start":"10:45",
+        "end":"12:00",
+        "dojo":true,
+        "description":"This will be an introductory session on Source control and address the Holy war that is upon us between the various technologies in the CYA (cover your ass) ecosystem. We will see the benefits of using the different technologies so that you can make a conscious decision when choosing a Source Control tool in your environment."
+    },
+    {
+        "id":34,
+        "speaker":"Dale Zak, Andrew Dyck, Chad Emm",
+        "title":"Open Data: A Paradigm Shift",
+        "room":"Campania",
+        "date":"2012-10-02",
+        "start":"09:20",
+        "end":"10:30",
+        "dojo":false,
+        "description":"Open data is a paradigm shift that is opening up opportunities for building Canada's information infrastucture. Presentations by three Saskatchewan open data leaders will explore how open data is being used in Canada and beyond to engage citizens in their local environment, promote new forms of democratic participation and inspire new business models for the future. Developers can expect to come away from this session with a new understanding of how open data puts you in the driver's seat in shaping Canada's future and how to get started now using simple tools such as Django, Windows Phone SDK, and an open-source mapping framework called Ushahidi."
+    },
+    {
+        "id":35,
+        "speaker":"David Mosher",
+        "title":"Using Node.JS to Manage Client Side Development (Part 1)",
+        "room":"Umbria",
+        "date":"2012-10-02",
+        "start":"09:20",
+        "end":"10:30",
+        "dojo":true,
+        "description":"Node.JS is a powerful platform that most consider useful for developing network services that require high concurrency. In this dojo you will learn how to use Node.JS, Express.JS and the Browserify plugin to manage client-side dependencies and craft a development environment that will help you rapidly bundle and deliver client-side code. We'll learn how to build a simple photo viewing application from the ground up using the Flickr API and Node.JS."
+    },
+    {
+        "id":53,
+        "speaker":"David Mosher",
+        "title":"Using Node.JS to Manage Client Side Development (Part 2)",
+        "room":"Umbria",
+        "date":"2012-10-02",
+        "start":"10:45",
+        "end":"12:00",
+        "dojo":true,
+        "description":"Node.JS is a powerful platform that most consider useful for developing network services that require high concurrency. In this dojo you will learn how to use Node.JS, Express.JS and the Browserify plugin to manage client-side dependencies and craft a development environment that will help you rapidly bundle and deliver client-side code. We'll learn how to build a simple photo viewing application from the ground up using the Flickr API and Node.JS."
+    },
+    {
+        "id":36,
+        "speaker":"Steve Rogalsky",
+        "title":"Multitaskers Anonymous",
+        "room":"Trentino",
+        "date":"2012-10-02",
+        "start":"08:00",
+        "end":"09:10",
+        "dojo":true,
+        "description":"When I am introduced to new clients I often find one consistent practice – most team members are assigned to multiple projects. Is this your reality? Do you like it? Are you proud of your multitasking skills? If you are frustrated by working on more than one project, are you able to articulate why this is good or bad? Join us for an exercise and discussion on the pros/cons of multitasking using the Hands/Numbers/Song game. You will gain insights into the costs of task switching and have answers for your manager the next time they ask if you can take on one more project. Better yet, bring your manager along and let them experience it for themselves and ask their own questions."
+    },
+    {
+        "id":37,
+        "speaker":"Aaron Kowal",
+        "title":"Tools for Teamwork (VS ALM)",
+        "room":"Lombardy A",
+        "date":"2012-10-02",
+        "start":"10:45",
+        "end":"12:00",
+        "dojo":false,
+        "description":"Visual Studio 2012 is more than just about writing code, in this session we’ll focus on the Application Lifecycle Management (ALM) features of Visual Studio. You’ll learn about topics like Product Backlog / Task Board, My Work, Local workspaces, Code Review, Code Comparison, Rollback, etc., all of them supported by Team Foundation Server and Visual Studio 2012."
+    },
+    {
+        "id":38,
+        "speaker":"Chris Dagenais",
+        "title":"Let's Get Organized!",
+        "room":"Lombardy B",
+        "date":"2012-10-02",
+        "start":"10:45",
+        "end":"12:00",
+        "dojo":false,
+        "description":"Self organizing teams are crucial to having motivated and invested employees in your organization. Placing focus on the team and not on the individual is not only key, but also one of the hardest things a team will need to do. We've been taught for most of our lives to look out for ourselves but there are many situations when this simply does not work. In this session i'll give a brief overview of what a self organizing team is for the beginners, and then we'll dive in to some more specifics about creating and maintaining the culture required for a self organizing team to thrive."
+    },
+    {
+        "id":39,
+        "speaker":"James Chambers",
+        "title":"App Design for Windows Phone",
+        "room":"Campania",
+        "date":"2012-10-02",
+        "start":"10:45",
+        "end":"12:00",
+        "dojo":false,
+        "description":"In the past year, we've worked with hundreds of developers and designers interpreting the \"Metro\" design system for their own purposes. We've seen great interpretations, and others that aren't so great. In this session, we'll share with you the foundations of great Metro application design for Windows Phone, and how to use them to build outstanding applications that will stand out and get noticed… for good reasons. We will also be providing some general best practices for building great mobile experiences."
+    },
+    {
+        "id":40,
+        "speaker":"James Kovacs",
+        "title":"MVC\/Ruby DeathMatch",
+        "room":"Lombardy A",
+        "date":"2012-10-02",
+        "start":"13:00",
+        "end":"14:15",
+        "dojo":false,
+        "description":"In this corner, our first contender, weighing in at 35 kLOC of C#, we have ASP.NET MVC. In the other corner, weighing in at 168 kLOC of Ruby, we have Ruby on Rails. We’re going to see what it takes to build a web app – test-first – in both frameworks. We’ll compare and contrast their relative strengths and weaknesses. The goal is to give a balanced perspective on these two popular frameworks."
+    },
+    {
+        "id":41,
+        "speaker":"Amiry Barylko",
+        "title":"Beautiful JS with Coffeescript",
+        "room":"Lombardy B",
+        "date":"2012-10-02",
+        "start":"13:00",
+        "end":"14:15",
+        "dojo":false,
+        "description":"What is Coffescript you ask? From coffeescript.org: \"CoffeeScript is a little language that compiles into JavaScript. Underneath all those awkward braces and semicolons, JavaScript has always had a gorgeous object model at its heart. CoffeeScript is an attempt to expose the good parts of JavaScript in a simple way.\" Join me in a session where we explore why using CS is a good idea and can improve the way you write code. We will talk about how to start, different environments, libraries, debugging, tools and everything under the JS sun!"
+    },
+    {
+        "id":42,
+        "speaker":"Jordan Boesch",
+        "title":"Build an HTML5 Mobile App with Sencha Touch (Part 1)",
+        "room":"Tuscany AB",
+        "date":"2012-10-02",
+        "start":"13:00",
+        "end":"14:15",
+        "dojo":true,
+        "description":"Wanna build a mobile friendly app that isn't sluggish and looks pretty? Love JavaScript? We'll you passed that test! We'll dive head first into building an app using the popular Sencha Touch HTML5 framework. Sencha Touch is a framework catered only to modern touch devices like iOS, Android and BlackBerry 6+ (sorry Nokia 3310). It's based of of the popular MVC ExtJS framework. So yes, it's all JavaScript baby."
+    },
+    {
+        "id":57,
+        "speaker":"Jordan Boesch",
+        "title":"Build an HTML5 Mobile App with Sencha Touch (Part 2)",
+        "room":"Tuscany AB",
+        "date":"2012-10-02",
+        "start":"14:30",
+        "end":"15:45",
+        "dojo":true,
+        "description":"Wanna build a mobile friendly app that isn't sluggish and looks pretty? Love JavaScript? We'll you passed that test! We'll dive head first into building an app using the popular Sencha Touch HTML5 framework. Sencha Touch is a framework catered only to modern touch devices like iOS, Android and BlackBerry 6+ (sorry Nokia 3310). It's based of of the popular MVC ExtJS framework. So yes, it's all JavaScript baby."
+    },
+    {
+        "id":43,
+        "speaker":"Donald Belcham",
+        "title":"The Dark Side of Code Metrics",
+        "room":"Campania",
+        "date":"2012-10-02",
+        "start":"13:00",
+        "end":"14:15",
+        "dojo":false,
+        "description":"Code metrics have been used to guage productivity, quality and maintainability of codebases for decades. From function points to lines of code and efferent coupling, teams have gathered and analyzed these metrics in the hopes of improving. While code metrics can have beneficial value, they also have a dark side. Metrics easily become thresholds and gated checks for bureaucratic processes. Instead of helping teams perform better they become boat anchors and shackles attached to processes. How can metrics be used to benefit teams without becoming a burden? The answer is out there..."
+    },
+    {
+        "id":44,
+        "speaker":"Simon Timms",
+        "title":"Single Page Apps",
+        "room":"Umbria",
+        "date":"2012-10-02",
+        "start":"13:00",
+        "end":"14:15",
+        "dojo":false,
+        "description":"Why are you loading all that boiler plate HTML every time I click on a link on your site? For a really smooth user experience repeated loading of content needs to be avoided. Single page applications use advanced Ajax and javascript to minimize the amount of data coming back form the server. Building these applications has never been easier than with ASP.net MVC 4. In this session we'll explore how single page applications work, how to build them and where they can be used."
+    },
+    {
+        "id":45,
+        "speaker":"David Paquette",
+        "title":"EF Code Based Migrations",
+        "room":"Lombardy A",
+        "date":"2012-10-02",
+        "start":"14:30",
+        "end":"15:45",
+        "dojo":false,
+        "description":"In this session, we will take an in-depth look at Code-Based migrations, available in the latest version of Entity Framework. We will start with a simple application and show how Code-Based migrations can help us evolve our database. If you hate dealing with database upgrade/migration scripts, this is the session for you!"
+    },
+    {
+        "id":46,
+        "speaker":"Melanie Cey",
+        "title":"Dev Ops",
+        "room":"Lombardy B",
+        "date":"2012-10-02",
+        "start":"14:30",
+        "end":"15:45",
+        "dojo":false,
+        "description":"If agile practices are to survive, the time of black box applications has to come to an end. Live graphs and access to production logs are a necessity in today's agile development world. The most natural extension to continuous integration is continuous deployment, and the only proof of continuous business value is that your code is performing as expected in your production environment. See how live graphing and augmented logging can change the way you monitor, react and troubleshoot your applications, reducing mean time to discovery and lengthening mean time between failures."
+    },
+    {
+        "id":47,
+        "speaker":"James Chambers",
+        "title":"A Cloud-Based Backend for Your Apps – Integrated in Minutes (Really!)",
+        "room":"Campania",
+        "date":"2012-10-02",
+        "start":"14:30",
+        "end":"15:45",
+        "dojo":false,
+        "description":"The best apps need a backend, and the best backends are Cloud-based. In this session, you’ll learn how you can leverage the new Windows Azure Mobile Services to add structured storage, integrated authentication, and even Push Notifications in literally minutes to your Windows 8 Store apps."
+    },
+    {
+        "id":48,
+        "speaker":"Chad McCallum",
+        "title":"Give Your Web Applications Some Backbone - JavaScript MVC",
+        "room":"Umbria",
+        "date":"2012-10-02",
+        "start":"14:30",
+        "end":"01:00",
+        "dojo":false,
+        "description":"Participants will walk through creating a \"to do list\" web application using JavaScript MVC, while contrasting the approach against traditional server-side rendering methods."
+    },
+    {
+        "id":49,
+        "speaker":"Brent Watson",
+        "title":"Stripes - Java MVC Framework",
+        "room":"Lombardy B",
+        "date":"2012-10-02",
+        "start":"16:00",
+        "end":"17:15",
+        "dojo":false,
+        "description":"Brent has just finished authoring a book on Stripes. This session will cover this web framework from start to end. Are you currently using Spring MVC, JSF, or Wicket, or (God forbid) Struts?, come see what you're missing."
+    },
+    {
+        "id":50,
+        "speaker":"Jason Kaczor",
+        "title":"Building \"Apps\" for SharePoint 2013",
+        "room":"Tuscany AB",
+        "date":"2012-10-02",
+        "start":"16:00",
+        "end":"17:15",
+        "dojo":false,
+        "description":"No description :("
+    },
+    {
+        "start": "08:30",
+        "end": "09:30",
+        "date": "2012-10-03",
+        "speaker": "Mike Yallits and Rob Wiens",
+        "title": "VMware Portfolio Overview – VMware 101",
+        "room": "Lombardy A"
+    },
+    {
+        "start": "08:30",
+        "end": "09:30",
+        "date": "2012-10-03",
+        "speaker": "Jason Miller",
+        "title": "Introduction to Windows Server 2012",
+        "room": "Lombardy B"
+    },
+    {
+        "start": "08:30",
+        "end": "09:30",
+        "date": "2012-10-03",
+        "speaker": "Tyler Doerksen",
+        "title": "Automating Virtual Machine Management with PowerShel",
+        "room": "Campania A"
+    },
+    {
+        "start": "09:45",
+        "end": "10:45",
+        "date": "2012-10-03",
+        "speaker": "Mike Yallits and Jim Nickel",
+        "title": "VMWare End User Computing (EUC) Part 1 - View and Thin App",
+        "room": "Lombardy A"
+    },
+    {
+        "start": "09:45",
+        "end": "10:45",
+        "date": "2012-10-03",
+        "speaker": "Brad Bird",
+        "title": "Modernizing the Datacenter",
+        "room": "Lombardy B"
+    },
+    {
+        "start": "09:45",
+        "end": "10:45",
+        "date": "2012-10-03",
+        "speaker": "Tyler Doerksen",
+        "title": "Deploying Active Directory in Windows Azure",
+        "room": "Campania A"
+    },
+    {
+        "start": "11:00",
+        "end": "12:00",
+        "date": "2012-10-03",
+        "speaker": "Mike Yallits and Jim Nickel",
+        "title": "VMWare End User Computing (EUC) Part 2 - Horizon Application Manager, App Blast, Project Octopus, and Others",
+        "room": "Lombardy A"
+    },
+    {
+        "start": "11:00",
+        "end": "12:00",
+        "date": "2012-10-03",
+        "speaker": "Ruth Morton",
+        "title": "What’s new in Windows Server 2012 Hyper-V",
+        "room": "Lombardy B"
+    },
+    {
+        "start": "12:15",
+        "end": "13:00",
+        "date": "2012-10-03",
+        "speaker": "Cyrus Lim",
+        "title": "What are Expert Integrated Systems (Intro)?",
+        "room": "Lombardy A"
+    },
+    {
+        "start": "13:15",
+        "end": "14:15",
+        "date": "2012-10-03",
+        "speaker": "Mike Yallits and Scott Jordan",
+        "title": "Virtualizing Business Critical Apps - SQL Server, Exchange, and yes even Oracle!",
+        "room": "Lombardy A"
+    },
+    {
+        "start": "13:15",
+        "end": "14:15",
+        "date": "2012-10-03",
+        "speaker": "Brad Bird",
+        "title": "Private Cloud Service Delivery and Automation with System Center 2012",
+        "room": "Lombardy B"
+    },
+    {
+        "start": "13:15",
+        "end": "14:15",
+        "date": "2012-10-03",
+        "speaker": "Cyrus Lim",
+        "title": "Expert Integrated Systems (Part 1)",
+        "room": "Campania A"
+    },
+    {
+        "start": "14:30",
+        "end": "15:30",
+        "date": "2012-10-03",
+        "speaker": "Mike Yallits and Scott Jordan",
+        "title": "SRM in the mid-market – Affordable Business Continuity and Disaster Recovery",
+        "room": "Lombardy A"
+    },
+    {
+        "start": "14:30",
+        "end": "15:30",
+        "date": "2012-10-03",
+        "speaker": "Brad Bird",
+        "title": "How to Make Microsoft System Center 2012 Operations Manager Work for You: Lessons Learned, Beyond the Install",
+        "room": "Lombardy B"
+    },
+    {
+        "start": "14:30",
+        "end": "15:30",
+        "date": "2012-10-03",
+        "speaker": "Cyrus Lim",
+        "title": "Expert Integrated Systems (Part 2)",
+        "room": "Campania A"
+    }
+]
+

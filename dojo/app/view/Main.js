@@ -4,7 +4,9 @@ Ext.define('PDC.view.Main', { // The name of your class. Namespace.[type].classN
 
     config: {
         tabBar: {
-            flex: 1,
+            defaults: {
+                flex: 1
+            },
             docked: 'bottom'
         },
 
