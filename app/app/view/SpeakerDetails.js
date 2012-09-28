@@ -5,8 +5,6 @@ Ext.define('PDC.view.SpeakerDetails', {
 
     config: {
 
-        fullscreen: true,
-        layout: 'vbox',
         scrollable: 'vertical',
 
         items: [

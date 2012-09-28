@@ -5,7 +5,6 @@ Ext.define('PDC.view.SessionDetails', {
 
     config: {
 
-        layout: 'vbox',
         scrollable: 'vertical',
 
         items: [
