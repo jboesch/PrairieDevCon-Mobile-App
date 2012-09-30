@@ -529,6 +529,78 @@ nav ul li a:hover {
                 </section>
 
                 <section>
+                    <h2>Variables</h2>
+
+                    <div class="before">
+                        <h3>Before</h3>
+<pre><code contenteditable>.content {
+    color: #00ff00;
+    background: #ee1100;
+},
+
+.thing {
+    border: 1px solid #00ff00;
+    color: #ee1100;
+}
+
+p.green-textshadow {
+    text-shadow: 1px 1px 0 #00ff00;
+    border: 5px solid #ee1100;
+}
+
+</code></pre>
+
+                    </div>
+                    <div class="after">
+                        <h3>After</h3>
+<pre><code contenteditable>$green: #00ff00
+$red: #ee1100
+
+.content {
+    color: $green;
+    background: $red;
+},
+
+.thing {
+    border: 1px solid $green;
+    color: $red
+}
+
+p.green-textshadow {
+    text-shadow: 1px 1px 0 $green;
+    border: 5px solid $red;
+}
+</code></pre>
+                    </div>
+                    <div class="clear"></div>
+
+                </section>
+
+                <section>
+                    <h2>How Sencha works with Compass</h2>
+                    <p>Sencha has default styles. Defaults to Titan blue.</p>
+                </section>
+
+                <section>
+                    <h2>Default style</h2>
+                    <img src="img/base-color-before.png"/>
+                </section>
+
+                <section>
+                    <h2>$base-color: #546346;</h2>
+                    <p>Now refresh.</p>
+                </section>
+
+                <section>
+                    <h2>New style</h2>
+                    <img src="img/base-color-after.png"/>
+                </section>
+
+                <section>
+                    <img src="img/easy.jpeg"/>
+                </section>
+
+                <section>
                     <h2>Now let's build a mobile conference app!</h2>
                     <img src="img/oldman.jpeg" />
                 </section>
