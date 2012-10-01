@@ -10,7 +10,6 @@ Ext.define('PDC.view.Tweets', {
 
     config: {
 
-        title: 'Tweets',
         cls: 'tweets',
 
         items: [

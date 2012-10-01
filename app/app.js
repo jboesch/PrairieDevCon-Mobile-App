@@ -24,6 +24,7 @@ Ext.application({
         'Speaker'
     ],
     controllers: [
+        'App',
         'Location',
         'Sessions',
         'Speakers',
@@ -54,6 +55,9 @@ Ext.application({
         Ext.Viewport.add({
             xclass: 'PDC.view.Main'
         });
+
+        var AppController = this.getApplication().getController('App');
+        AppController.setPanelHash('sessions');
 
     }
 

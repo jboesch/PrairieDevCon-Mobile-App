@@ -615,6 +615,11 @@
                     "path": "app/view/"
                 },
                 {
+                    "clsName": "PDC.controller.App",
+                    "name": "App.js",
+                    "path": "app/controller/"
+                },
+                {
                     "clsName": "PDC.controller.Location",
                     "name": "Location.js",
                     "path": "app/controller/"

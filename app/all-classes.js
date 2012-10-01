@@ -25321,7 +25321,6 @@ Ext.define('PDC.view.SessionDetails', {
 
     config: {
 
-        layout: 'vbox',
         scrollable: 'vertical',
 
         items: [
@@ -25366,8 +25365,6 @@ Ext.define('PDC.view.SpeakerDetails', {
 
     config: {
 
-        fullscreen: true,
-        layout: 'vbox',
         scrollable: 'vertical',
 
         items: [
@@ -25436,6 +25433,56 @@ Ext.define('PDC.view.HtmlPage', {
         });
 
     }
+});
+Ext.define('PDC.controller.App', {
+
+    extend: 'Ext.app.Controller',
+
+    config: {
+        refs: {
+            main: 'main',
+            sessions: 'sessions'
+        },
+        control: {
+            main: {
+                activeitemchange: 'onActiveItemChange'
+            },
+            sessions: {
+                activeitemchange: 'onActiveItemChange'
+            },
+            speakers: {
+                activeitemchange: 'onActiveItemChange'
+            }
+        },
+        routes: {
+            'panel/:id': 'showPanel'
+        }
+    },
+
+    onActiveItemChange: function(me, newActiveItem, oldActiveItem, eOpts) {
+
+        var page = newActiveItem.config.xtype || newActiveItem.getId();
+        this.setPanelHash(page);
+
+    },
+
+    showPanel: function(id){
+
+        // Rather hack-ish... but gets the history/routing working
+        var items = PDC.view.Main.prototype.config.items;
+
+        for(var i = 0; i < items.length; i++){
+            if(id == items[i].xtype){
+                this.getMain().setActiveItem(i);
+            }
+        }
+
+    },
+
+    setPanelHash: function(page){
+        window.location.hash = 'panel/' + page;
+    }
+
 });
 Ext.define('PDC.controller.Location', {
 
@@ -37951,10 +37998,7 @@ Ext.define('PDC.view.Main', { // The name of your class. Namespace.[type].classN
             defaults: {
                 flex: 1
             },
-            docked: 'bottom',
-            layout: {
-                pack: 'center'
-            }
+            docked: 'bottom'
         },
 
         items: [
@@ -41608,7 +41652,6 @@ Ext.define('PDC.view.Tweets', {
 
     config: {
 
-        title: 'Tweets',
         cls: 'tweets',
 
         items: [
