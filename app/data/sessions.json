@@ -74,7 +74,7 @@
         "start":"10:30",
         "end":"11:45",
         "dojo":false,
-        "description":"You may have heard the term \"devops\" floating around over the last few years. Recently, there has been an explosion in adoption of the practices outlined as part of the movement. As a developer turned systems administrator, I have first hand experience and understanding of both functional and non-functional requirements. I'd like to cover the principles, how the movement started and has recently gained steam with some big players (like Etsy), and how some companies are embracing the change. I will give an overview of the change in our operations and system stability overall since we began to adopt the practices related to DevOps."
+        "description":"If agile practices are to survive, the time of black box applications has to come to an end. Live graphs and access to production logs are a necessity in today's agile development world. The most natural extension to continuous integration is continuous deployment, and the only proof of continuous business value is that your code is performing as expected in your production environment. See how live graphing and augmented logging can change the way you monitor, react and troubleshoot your applications, reducing mean time to discovery and lengthening mean time between failures."
     },
     {
         "id":9,
@@ -536,7 +536,7 @@
         "start":"14:30",
         "end":"15:45",
         "dojo":false,
-        "description":"If agile practices are to survive, the time of black box applications has to come to an end. Live graphs and access to production logs are a necessity in today's agile development world. The most natural extension to continuous integration is continuous deployment, and the only proof of continuous business value is that your code is performing as expected in your production environment. See how live graphing and augmented logging can change the way you monitor, react and troubleshoot your applications, reducing mean time to discovery and lengthening mean time between failures."
+        "description":"You may have heard the term \"devops\" floating around over the last few years. Recently, there has been an explosion in adoption of the practices outlined as part of the movement. As a developer turned systems administrator, I have first hand experience and understanding of both functional and non-functional requirements. I'd like to cover the principles, how the movement started and has recently gained steam with some big players (like Etsy), and how some companies are embracing the change. I will give an overview of the change in our operations and system stability overall since we began to adopt the practices related to DevOps."
     },
     {
         "id":47,
